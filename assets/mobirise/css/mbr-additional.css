@@ -1327,25 +1327,80 @@ section.lazy-placeholder:after {
   font-size: 60px;
   color: #777;
 }
-.cid-rSbexMwIuF {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #25303e;
+.cid-rWHM6kI0DG {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  background-color: #4f87fb;
+  background: linear-gradient(to bottom, #4f87fb, #0053f9);
 }
-.cid-rSbexMwIuF .links {
-  text-align: center;
+.cid-rWHM6kI0DG .mbr-section-subtitle {
   color: #ffffff;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+  width: 100%;
 }
-.cid-rSbexMwIuF p {
-  margin: 0;
-}
-.cid-rSbexMwIuF a {
+.cid-rWHM6kI0DG .mbr-section-title {
   color: #ffffff;
+  font-weight: 700;
+  width: 100%;
 }
-.cid-rSbexMwIuF a:hover {
-  color: #4f87fb !important;
-  -webkit-transition: 0.3s all;
-  transition: 0.3s all;
+.cid-rWHM6kI0DG .mbr-section-title.display-2 {
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: -0.5px;
+}
+.cid-rWHM6kI0DG .mbr-text {
+  color: #ffffff;
+  font-weight: 400;
+  width: 100;
+}
+.cid-rWHM6kI0DG .mbr-text.display-7 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.cid-rWHM6kI0DG .content-link {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  color: #130947;
+  margin-left: 0.6rem;
+}
+.cid-rWHM6kI0DG .content-link span {
+  margin-right: 15px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 100%;
+  color: #ffffff;
+  background-color: #ffffff;
+  font-size: 2.475rem;
+}
+.cid-rWHM6kI0DG .mbr-section-btn .btn {
+  border-radius: 3px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding: 12px 40px !important;
+  margin-right: 20px;
+}
+.cid-rWHM6kI0DG .mbr-section-btn.display-4,
+.cid-rWHM6kI0DG .btn.display-4 {
+  font-size: 12px !important;
+}
+@media (max-width: 991px) {
+  .cid-rWHM6kI0DG .separator,
+  .cid-rWHM6kI0DG .sep-holder,
+  .cid-rWHM6kI0DG .sep-line {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .cid-rWHM6kI0DG .buttons-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
 }
 .cid-rWG7dKExR5 {
   background-image: url("../../../assets/images/404-not-found-2000x1330.jpg");
