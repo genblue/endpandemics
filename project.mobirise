@@ -22,16 +22,16 @@
         "display7Size": 1.125,
         "display4Font": "Muli",
         "display4Size": 0.875,
-        "isRoundedButtons": false,
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "titlePreset": "Hospital",
       "nameSelectPreset": "hospital",
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "name": "MP Wildlife",
+    "name": "End Pandemics",
     "versionFirst": "4.11.6",
     "siteFonts": [
       {
@@ -42,26 +42,27 @@
     ],
     "favicon": "@PROJECT_PATH@/assets/images/favicon-endpandemics-128x128-5.png",
     "noImageResize": false,
-    "robotsSwitcher": false,
+    "robotsSwitcher": true,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 40,
+    "uniqCompNum": 50,
     "versionPublish": "4.11.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\nDisallow: /*.jpg$\nDisallow: /*.png$\nDisallow: /*.gif$"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "End Pandemics - Global Webinar",
+        "title": "EndPandemics",
         "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. ",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/social-share-1080x1080.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/social-share-1200x630.jpg"
       },
       "components": [
         {
@@ -964,6 +965,260 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "404.html": {
+      "settings": {
+        "title": "404.html",
+        "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/social-share-1200x630.jpg",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "@primaryColor",
+              "font-weight": "700",
+              "line-height": "20px",
+              "letter-spacing": "2px",
+              "& when (@showFrame)": {
+                "background-color": "@primaryColor",
+                "padding": "5px 14px",
+                "color": "@successColor",
+                "display": "table"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#130947",
+              "font-weight": "900",
+              "line-height": "60px",
+              "letter-spacing": "-1px",
+              ".accent-word": {
+                "color": "@primaryColor"
+              }
+            },
+            ".mbr-text": {
+              "color": "@infoColor"
+            },
+            ".content-link": {
+              "display": "flex",
+              "-webkit-box-pack": "justify",
+              "justify-content": "space-between",
+              "-webkit-box-align": "center",
+              "align-items": "center",
+              "color": "@secondaryColor",
+              "margin-left": "0.6rem",
+              "span": {
+                "margin-right": "15px",
+                "margin-left": "20px",
+                "padding": "10px",
+                "border-radius": "100%",
+                "color": "@primaryColor",
+                "background-color": "#ffffff",
+                "font-size": "2.475rem"
+              }
+            },
+            ".mbr-section-btn": {
+              "display": "flex",
+              ".btn": {
+                "border-radius": "4px",
+                "line-height": "24px",
+                "letter-spacing": "1px",
+                "margin": "0.4rem 1rem 0.4rem 0rem !important",
+                "padding": "15px 55px !important"
+              },
+              ".btn-primary": {
+                "&:hover": {
+                  "background-color": "@secondaryColor !important",
+                  "border-color": "@secondaryColor !important",
+                  "color": "@successColor !important"
+                }
+              }
+            },
+            ".mbr-section-btn.display-4, .btn.display-4": {
+              "font-size": "12px !important"
+            },
+            ".video-wrap": {
+              "cursor": "pointer",
+              "margin-left": "14px",
+              ".mbr-media": {
+                "z-index": "70",
+                "height": "100%",
+                "-o-object-fit": "cover",
+                "object-fit": "cover",
+                "background-repeat": "no-repeat",
+                "background-size": "cover",
+                "cursor": "pointer"
+              },
+              ".mbr-media span": {
+                "font-size": "20px",
+                "cursor": "pointer",
+                "display": "inline-block",
+                "-webkit-transition": "all 0.25s",
+                "transition": "all 0.25s",
+                "color": "@primaryColor",
+                "position": "absolute",
+                "top": "50%",
+                "left": "50%",
+                "-webkit-transform": "translate(-50%, -50%)",
+                "transform": "translate(-50%, -50%)",
+                "&.mbri-play:before": {
+                  "position": "absolute",
+                  "left": "50%",
+                  "-webkit-transform": "translateX(-35%)",
+                  "transform": "translateX(-35%)"
+                }
+              },
+              ".icon-wrap": {
+                "background-color": "@bgIconColor",
+                "width": "3.7em",
+                "height": "3.7em",
+                "border-radius": "50%",
+                "max-width": "100% !important",
+                "line-height": "1.6em !important",
+                "text-align": "center",
+                "display": "inline-block",
+                "border": "2px solid transparent",
+                "box-sizing": "content-box",
+                "position": "relative"
+              },
+              ".mbr-text": {
+                "line-height": "22px",
+                "font-weight": "800",
+                "letter-spacing": "0px",
+                "color": "@secondaryColor"
+              },
+              ".mbr-text.display-4": {
+                "font-size": "13px"
+              }
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "left": "0",
+              "top": "0",
+              "background-color": "rgba(61, 61, 61, 0.65)",
+              "width": "100%",
+              "height": "100%",
+              ".modalWindow-container": {
+                "display": "table-cell",
+                "vertical-align": "middle"
+              },
+              ".modalWindow-video": {
+                "height": "calc(80vw / 1.778)",
+                "width": "80vw",
+                "margin": "0 auto"
+              }
+            },
+            "a.close": {
+              "position": "absolute",
+              "right": "4vw",
+              "top": "4vh",
+              "color": "@successColor",
+              "z-index": "5000000",
+              "font-size": "37px",
+              "background": "#000",
+              "padding": "20px",
+              "border-radius": "50%",
+              "&:hover": {
+                "color": "@successColor"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".separator, .sep-holder, .sep-line": {
+                "display": "none !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".mbr-section-subtitle": {
+                "& when (@showFrame)": {
+                  "margin-left": "auto",
+                  "margin-right": "auto"
+                }
+              },
+              ".buttons-wrap": {
+                "-webkit-box-orient": "vertical",
+                "-webkit-box-direction": "normal",
+                "flex-direction": "column",
+                ".video-wrap": {
+                  "margin-left": "0",
+                  "margin-top": "15px"
+                }
+              }
+            },
+            ".mbr-section-subtitle, .mbr-section-title .accent-word .mbr-section-subtitle, .mbr-section-title .accent-word": {
+              "color": "#303f61"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#130947"
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <select title=\"Text Position\" name=\"justify\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle Frame\" name=\"showFrame\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        <input type=\"color\" title=\"Play Icon Background\" name=\"bgIconColor\" value=\"#ffffff\" condition=\"showButtons\">\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value condition=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/404-not-found-2000x1330.jpg\" title=\"Image\" selected>\n            <input type=\"color\" value=\"#0087ab\" title=\"Color\">\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#6d7a8c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 col-md-12\">\n                <div class=\"wrap d-flex flex-column\" mbr-class=\"{'align-items-start': justify == 1, 'align-items-center': justify == 2, 'align-items-end': justify == 3}\">\n                    <div class=\"w-100\" data-app-selector=\".mbr-section-subtitle, .mbr-section-title .accent-word\">\n                        <p class=\"mbr-section-subtitle mbr-bold align-center pb-1 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-title .accent-word\">\n                            A GLOBAL ALLIANCE to PROTECT and REGENERATE NATURE</p>\n                    </div>\n\n                    <h1 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">404 Not Found</h1>\n                    <p class=\"mbr-text align-center pt-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">#EndPandemics<br></p>\n                    <div class=\"buttons-wrap d-flex mt-4\">\n                        <div class=\"mbr-section-btn align-center \" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">&lt; BACK</a></div>\n                        <!-- div class=\"video-wrap d-flex align-items-center\" mbr-if=\"showButtons\">\n                            <div class=\"mbr-media show-modal align-center d-flex align-items-center\" data-modal=\".modalWindow\" mbr-if=\"showButtons\">\n                                <div class=\"icon-wrap\" mbr-if=\"showButtons\">\n                                    <span mbr-icon class=\"mbr-iconfont fa-play fa\" mbr-if=\"showButtons\"></span>\n                                </div>\n                            </div>\n                            <!-- h4 class=\"mbr-text mbr-fonts-style align-self-center ml-3 my-auto mbr-bold\" mbr-theme-style=\"display-4\" data-app-selector=\".video-wrap .mbr-text,.mbr-section-btn\" mbr-if=\"showButtons\">\n                                WATCH VIDEO</h4>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n    <div>\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>--></div></div></div></div></div></section>",
+          "_isUserblock": true,
+          "_sourceTheme": "medicalm4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "rWG7dKExR5",
+          "_anchor": "header5-15",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".links": {
+              "text-align": "center",
+              "color": "@successColor"
+            },
+            "p": {
+              "margin": "0"
+            },
+            "a": {
+              "color": "@successColor",
+              "&:hover": {
+                "color": "@primaryColor !important",
+                "-webkit-transition": "0.3s all",
+                "transition": "0.3s all"
+              }
+            }
+          },
+          "_name": "footer2",
+          "_customHTML": "<section class=\"footer2\" group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#25303e\" title=\"Color\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#656565\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n\n        <div class=\"row\">\n            <div class=\"col-sm-12\">\n                <p class=\"mbr-text links mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".links\">\n                    © Copyright 2020 - All Rights\n                    Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "medicalm4",
+          "_cid": "rWG7dPjLk7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer2-1d"
         }
       ]
     }
