@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "toolshet.html",
     "theme": {
       "name": "medicalm4",
       "title": "MedicalM4",
@@ -1923,9 +1923,9 @@
         }
       ]
     },
-    "page2.html": {
+    "toolshet.html": {
       "settings": {
-        "title": "Toolshed",
+        "title": "EP - Toolshed",
         "order": 1
       },
       "components": [
