@@ -2891,7 +2891,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<iframe class=\"airtable-embed\" src=\"https://airtable.com/embed/shrUQr5cLvjqcsjO3?backgroundColor=blue&amp;viewControls=on\" frameborder=\"0\" onmousewheel=\"\" width=\"100%\" height=\"600px\" style=\"background: transparent; border: 1px solid #ccc;\"></iframe>",
+          "_customHTML": "<!-- Type valid HTML here -->\n<iframe class=\"airtable-embed\" src=\"https://airtable.com/embed/shrw43S66knorYdtr?backgroundColor=blue&amp;viewControls=on\" frameborder=\"0\" onmousewheel=\"\" width=\"100%\" height=\"1024px\" style=\"background: transparent; border: 1px solid #ccc;\"></iframe>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -3131,42 +3131,6 @@
           "_isUserblock": true,
           "_sourceTheme": "medicalm4",
           "_cid": "rXbpoFyeCm",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".links": {
-              "text-align": "center",
-              "color": "@successColor"
-            },
-            "p": {
-              "margin": "0"
-            },
-            "a": {
-              "color": "@successColor",
-              "&:hover": {
-                "color": "@primaryColor !important",
-                "-webkit-transition": "0.3s all",
-                "transition": "0.3s all"
-              }
-            }
-          },
-          "_name": "footer2",
-          "_customHTML": "<section class=\"footer2\" group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#25303e\" title=\"Color\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#656565\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n\n        <div class=\"row\">\n            <div class=\"col-sm-12\">\n                <p class=\"mbr-text links mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".links\">\n                    © Copyright 2020 <a href=\"https://mobirise.com/\">Mobirise</a> - All Rights\n                    Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rXbpfNoZDH",
-          "_anchor": "footer2-1o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
