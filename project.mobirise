@@ -4269,7 +4269,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<iframe class=\"airtable-embed\" src=\"https://airtable.com/embed/shrUQr5cLvjqcsjO3?backgroundColor=blue&amp;viewControls=on\" frameborder=\"0\" onmousewheel=\"\" width=\"100%\" height=\"1024px\" style=\"background: transparent; border: 1px solid #ccc;\"></iframe>",
+          "_customHTML": "<!-- Type valid HTML here -->\n<iframe class=\"airtable-embed\" src=\"https://airtable.com/embed/shrUQr5cLvjqcsjO3?backgroundColor=blue\" frameborder=\"0\" onmousewheel=\"\" width=\"100%\" height=\"1024px\" style=\"background: transparent; border: 1px solid #ccc;\"></iframe>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
