@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /*.jpg$
 Disallow: /*.png$
 Disallow: /*.gif$
+

@@ -1,0 +1,10 @@
+applications:
+- name: endpandemics
+  path: .
+  memory: 32M
+  instances: 1
+  routes:
+     - route: endpandemics.cfapps.io
+  buildpacks:
+     - staticfile_buildpack
+

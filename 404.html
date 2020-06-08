@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+  <link rel="stylesheet" href="assets/web/assets/gdpr-plugin/gdpr-styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/formoid-css/recaptcha.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -51,6 +52,19 @@
 // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/oqmxj1zf'
 (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/oqmxj1zf';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 </script>
+
+<!-- MailerLite Universal -->
+<script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+var ml_account = ml('accounts', '1168876', 'e7j9e1r8h1', 'load');
+</script>
+<!-- End MailerLite Universal -->
+
 <!-- /Analytics -->
 
 
@@ -73,7 +87,7 @@
                     <h1 class="mbr-section-title align-center mbr-fonts-style display-1">404 Not Found</h1>
                     <p class="mbr-text align-center pt-4 mbr-fonts-style display-5">#EndPandemics<br></p>
                     <div class="buttons-wrap d-flex mt-4">
-                        <div class="mbr-section-btn align-center"><a class="btn btn-lg btn-primary display-7" href="index.html#top-of-page">&lt; BACK</a></div>
+                        <div class="mbr-section-btn align-center"><a class="btn btn-lg btn-primary display-7" href="index.html">&lt; BACK</a></div>
                         <!-- div class="video-wrap d-flex align-items-center" mbr-if="showButtons">
                             <div class="mbr-media show-modal align-center d-flex align-items-center" data-modal=".modalWindow" mbr-if="showButtons">
                                 <div class="icon-wrap" mbr-if="showButtons">
@@ -245,12 +259,15 @@
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>
+  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
   
-  <input name="animation" type="hidden">
+<input name="cookieData" type="hidden" data-cookie-customDialogSelector='null' data-cookie-colorText='#424a4d' data-cookie-colorBg='rgba(234, 239, 241, 0.99)' data-cookie-textButton='Agree' data-cookie-colorButton='' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='true' data-cookie-text="We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.">
+    <input name="animation" type="hidden">
   </body>
 </html>
