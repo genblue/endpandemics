@@ -4,7 +4,8 @@ applications:
   memory: 32M
   instances: 1
   routes:
-     - route: endpandemics.cfapps.io
+     - route: ep-stage.cfapps.io
+     - route: stage.endpandemics.earth
   buildpacks:
      - staticfile_buildpack
 
