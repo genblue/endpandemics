@@ -1996,6 +1996,56 @@ section.lazy-placeholder:after {
   margin-right: 10px;
   font-size: 1.5rem;
 }
+.cid-s1yNavPrRE {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #4f87fb;
+}
+.cid-s1yNavPrRE .mbr-text,
+.cid-s1yNavPrRE .mbr-section-title {
+  letter-spacing: -0.5px;
+}
+.cid-s1yNavPrRE .img span {
+  font-size: 80px;
+  color: #ffffff;
+}
+.cid-s1yNavPrRE .mbr-text,
+.cid-s1yNavPrRE .mbr-section-btn,
+.cid-s1yNavPrRE .mbr-section-title {
+  color: #ffffff;
+}
+.cid-s1yNavPrRE .mbr-text {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.cid-s1yNavPrRE .mbr-text.display-7 {
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+.cid-s1yNavPrRE .mbr-section-title {
+  font-weight: 700;
+}
+.cid-s1yNavPrRE .mbr-section-title.display-2 {
+  line-height: 50px;
+  letter-spacing: -0.5px;
+}
+.cid-s1yNavPrRE .btn {
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  border-width: 2px;
+}
+@media (max-width: 768px) {
+  .cid-s1yNavPrRE .mbr-section-title,
+  .cid-s1yNavPrRE .mbr-text,
+  .cid-s1yNavPrRE .mbr-section-btn {
+    text-align: left;
+  }
+}
 .cid-rWFwfcEtmG {
   padding-top: 105px;
   padding-bottom: 90px;

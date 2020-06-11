@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "events.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "medicalm4",
       "title": "MedicalM4",
@@ -46,7 +46,7 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://endpandemics.earth",
-    "uniqCompNum": 207,
+    "uniqCompNum": 209,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /*.jpg$\nDisallow: /*.png$\nDisallow: /*.gif$\n\n",
@@ -1630,6 +1630,69 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text, .mbr-section-title": {
+              "letter-spacing": "-0.5px"
+            },
+            ".img span": {
+              "font-size": "80px",
+              "color": "@successColor"
+            },
+            ".mbr-text, .mbr-section-btn, .mbr-section-title": {
+              "color": "@successColor"
+            },
+            ".mbr-text": {
+              "margin-bottom": "0",
+              "font-weight": "700"
+            },
+            ".mbr-text.display-7": {
+              "line-height": "28px",
+              "letter-spacing": "-0.5px"
+            },
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".mbr-section-title.display-2": {
+              "line-height": "50px",
+              "letter-spacing": "-0.5px"
+            },
+            ".btn": {
+              "border-radius": "4px",
+              "padding-top": "12px",
+              "padding-bottom": "12px",
+              "padding-left": "40px",
+              "padding-right": "40px",
+              "letter-spacing": "1px",
+              "line-height": "24px",
+              "border-width": "2px"
+            },
+            "@media (max-width: 768px)": {
+              ".mbr-section-title, .mbr-text, .mbr-section-btn": {
+                "text-align": "left"
+              }
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section class=\"info1\" group=\"Info\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked condition=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Icon\" name=\"showIcon\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background1.jpg\" title=\"Background Image\">\n            <input type=\"color\" value=\"#4f87fb\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\" title=\"Background Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4f87fb\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-8\">\n                <div class=\"wrap d-flex\">\n                    <div class=\"img\" mbr-if=\"showIcon\">\n                        <span mbr-icon class=\"mbr-iconfont mdi-notification-event-available\"></span>\n                    </div>\n                    <div class=\"wrap-text d-flex flex-column ml-4\">\n                        <p class=\"mbr-text align-left mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            LEARN MORE</p>\n                        <h1 class=\"mbr-section-title align-left mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .card-img\">Solutions from front line organizations</h1>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4 align-self-center\">\n                <div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">GET DETAILS</a></div>\n            </div>\n        </div>\n    </div>\n    \n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "s1yNavPrRE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "info1-5r"
         },
         {
           "alias": false,
