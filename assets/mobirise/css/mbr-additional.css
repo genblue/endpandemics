@@ -5692,6 +5692,10 @@ section.lazy-placeholder:after {
 .cid-s1tTb0f7hR .mbr-section-btn {
   color: #4f87fb;
 }
+.cid-s1tTb0f7hR .mbr-section-title,
+.cid-s1tTb0f7hR .mbr-section-btn DIV {
+  text-align: left;
+}
 #custom-html-5p {
   /* Type valid CSS here */
 }
