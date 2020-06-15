@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "events.html",
+    "currentPage": "donate.html",
     "theme": {
       "name": "medicalm4",
       "title": "MedicalM4",
@@ -46,7 +46,7 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://endpandemics.earth",
-    "uniqCompNum": 211,
+    "uniqCompNum": 213,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /*.jpg$\nDisallow: /*.png$\nDisallow: /*.gif$\n\n",
@@ -5857,13 +5857,355 @@
             }
           },
           "_name": "features2",
-          "_customHTML": "<section class=\"features2\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\">\n        <input type=\"checkbox\" title=\"Card Subtitle\" name=\"showCardSubtitle\">\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showCardText\">\n        <input type=\"checkbox\" title=\"Link\" name=\"showLink\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"contents\">\n            <h3 class=\"mbr-subtitle mbr-fonts-style mbr-bold\" data-app-selector=\".contents .mbr-subtitle\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">NOW ACCEPTING DONATIONS</h3>\n            <h1 class=\"mbr-section-title mbr-fonts-style mbr-bold\" data-app-selector=\".contents .mbr-section-title\" mbr-if=\"showMainTitle\" mbr-theme-style=\"display-2\">Support Front Line Organizations to End Pandemics</h1>\n            <h2 class=\"mbr-section-text mbr-fonts-style mbr-light\" data-app-selector=\".contents .mbr-section-text\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Your contribution will not only protect our global health and save wildlife, it will also safeguard global biodiversity, enhance sustainable agriculture, and mitigate climate change. We emphasize and facilitate collaboration among all types of organizations (big and small, formal and informal) and citizens to deliver lasting positive impacts on frontline actions, public policies, business practices, and consumer behaviors. <a href=\"https://support.endpandemics.earth/en/collections/2399439-for-donors\" target=\"_blank\">Click here to read about how donations are spent</a>.<div><div><br></div></div></h2>\n            \n            \n            \n                   [JS_CODE_0]\n            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n                        <iframe allowpaymentrequest frameborder=\"0\" name=\"donorbox\" onload=\"window.donorbox.resizeDonationWidget()\" scrolling=\"no\" seamless=\"seamless\" src=\"https://donorbox.org/embed/endpandemics-1?default_interval=o&hide_donation_meter=true\" style=\"max-width: 500px; min-width: 310px; max-height:none!important;text-align: center;margin: auto;\" width=\"100%\"></iframe>\n            \n            \n            \n            \n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/pic3-1-696x464.png\" alt title>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a class=\"btn btn-md btn-white-outline\" href=\"#top\" data-app-placeholder=\"Type Text\">SUPPORT THIS PILLAR</a></div>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">14 FEB,\n                            2020</h5>\n                        <h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">Reduce Demand</h4>\n                        \n                        \n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn\">When demand is reduced, wildlife trade will decrease&nbsp;<br>&nbsp;<br>1) Behaviour change campaigns that reward responsible consumerism;  <br>2) Develop alternative livelihood programs for communities dependent on wildlife consumption or sales; <br>3)&nbsp;Strengthening laws and policies.<br></p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"#top\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>SUPPORT THIS PILLAR</a></div>\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/pic1-696x464.jpg\" alt=\"Mobirise\" title>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"#top\" data-app-placeholder=\"Type Text\">SUPPORT THIS PILLAR</a></div>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">09 FEB,\n                            2020</h5>\n                        <h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">Protect and Expand Habitat</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn\">Keeping wild animals and their habitat secure from poaching, logging, mining, and encroachment. <br><br>1) Frontline ranger and community patrol support: training, equipment, life insurance;<br>2) Poverty reduction: youth education and alternative livelihood support;<br>3) Empower rural communities to defend their land and human rights as protectors of nature;<br>4) Restoring nature: growing protected areas, buffer zones corridors and rewilding;<br>5) Sustainable agriculture: scaling environmentally friendly farming practices.</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"#top\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>SUPPORT THIS PILLAR</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/pic4-696x464.png\" alt=\"Mobirise\" title>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"#top\" data-app-placeholder=\"Type Text\">SUPPORT THIS PILLAR</a></div>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">08 FEB,\n                            2020</h5>\n                        <h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">Counter Trafficking</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn\">Freeze the financial trigger on poaching. &nbsp;<br><br>1) Empowering law enforcers to identify and dismantle criminal syndicates and seize assets;<br>2) Funding wildlife enforcement operations;<br>3) Establishing and linking data-bases on wildlife crimes;<br>4) Helping the private sector adopt compliance measures for nature protection;<br>5) Enable and reward citizen support for, and monitoring of, nature protection. &nbsp;&nbsp;</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"#top\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>SUPPORT THIS PILLAR</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/08.jpg\" alt=\"Mobirise\">\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com/\" data-app-placeholder=\"Type Text\">COSMETIC</a>\n                        </div>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">10 FEB,\n                            2020</h5>\n                        <h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">Missing Teeth\n                        </h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn, .mbr-link-btn\">Cras tempus consectetur venenatis.\n                            Quisque\n                            porttitor iaculis rutrum. Proin sed massa euismod, viverra lacus a, pellentesque nisi.\n                            Integer rutrum mi non est blandit rhoncus. Ut id enim est.</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.com/\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features2\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\">\n        <input type=\"checkbox\" title=\"Card Subtitle\" name=\"showCardSubtitle\">\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showCardText\">\n        <input type=\"checkbox\" title=\"Link\" name=\"showLink\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"contents\">\n            <h3 class=\"mbr-subtitle mbr-fonts-style mbr-bold\" data-app-selector=\".contents .mbr-subtitle\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">NOW ACCEPTING INDIVIDUAL DONATIONS</h3>\n            <h1 class=\"mbr-section-title mbr-fonts-style mbr-bold\" data-app-selector=\".contents .mbr-section-title\" mbr-if=\"showMainTitle\" mbr-theme-style=\"display-2\">Support Front Line Organizations to End Pandemics</h1>\n            <h2 class=\"mbr-section-text mbr-fonts-style mbr-light\" data-app-selector=\".contents .mbr-section-text\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Your contribution will not only protect our global health and save wildlife, it will also safeguard global biodiversity, enhance sustainable agriculture, and mitigate climate change. We emphasize and facilitate collaboration among all types of organizations (big and small, formal and informal) and citizens to deliver lasting positive impacts on frontline actions, public policies, business practices, and consumer behaviors. <a href=\"https://support.endpandemics.earth/en/collections/2399439-for-donors\" target=\"_blank\">Click here to read about how donations are spent</a>.<div><div><br></div></div></h2>\n            \n            \n            \n                   [JS_CODE_0]\n            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n                        <iframe allowpaymentrequest frameborder=\"0\" name=\"donorbox\" onload=\"window.donorbox.resizeDonationWidget()\" scrolling=\"no\" seamless=\"seamless\" src=\"https://donorbox.org/embed/endpandemics-1?default_interval=o&hide_donation_meter=true\" style=\"max-width: 500px; min-width: 310px; max-height:none!important;text-align: center;margin: auto;\" width=\"100%\"></iframe>\n            \n            \n            \n            \n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/pic3-1-696x464.png\" alt title>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a class=\"btn btn-md btn-white-outline\" href=\"#top\" data-app-placeholder=\"Type Text\">SUPPORT THIS PILLAR</a></div>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">14 FEB,\n                            2020</h5>\n                        <h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">Reduce Demand</h4>\n                        \n                        \n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn\">When demand is reduced, wildlife trade will decrease&nbsp;<br>&nbsp;<br>1) Behaviour change campaigns that reward responsible consumerism;  <br>2) Develop alternative livelihood programs for communities dependent on wildlife consumption or sales; <br>3)&nbsp;Strengthening laws and policies.<br></p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"#top\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>SUPPORT THIS PILLAR</a></div>\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/pic1-696x464.jpg\" alt=\"Mobirise\" title>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"#top\" data-app-placeholder=\"Type Text\">SUPPORT THIS PILLAR</a></div>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">09 FEB,\n                            2020</h5>\n                        <h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">Protect and Expand Habitat</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn\">Keeping wild animals and their habitat secure from poaching, logging, mining, and encroachment. <br><br>1) Frontline ranger and community patrol support: training, equipment, life insurance;<br>2) Poverty reduction: youth education and alternative livelihood support;<br>3) Empower rural communities to defend their land and human rights as protectors of nature;<br>4) Restoring nature: growing protected areas, buffer zones corridors and rewilding;<br>5) Sustainable agriculture: scaling environmentally friendly farming practices.</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"#top\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>SUPPORT THIS PILLAR</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/pic4-696x464.png\" alt=\"Mobirise\" title>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"#top\" data-app-placeholder=\"Type Text\">SUPPORT THIS PILLAR</a></div>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">08 FEB,\n                            2020</h5>\n                        <h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">Counter Trafficking</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn\">Freeze the financial trigger on poaching. &nbsp;<br><br>1) Empowering law enforcers to identify and dismantle criminal syndicates and seize assets;<br>2) Funding wildlife enforcement operations;<br>3) Establishing and linking data-bases on wildlife crimes;<br>4) Helping the private sector adopt compliance measures for nature protection;<br>5) Enable and reward citizen support for, and monitoring of, nature protection. &nbsp;&nbsp;</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"#top\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>SUPPORT THIS PILLAR</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/08.jpg\" alt=\"Mobirise\">\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com/\" data-app-placeholder=\"Type Text\">COSMETIC</a>\n                        </div>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">10 FEB,\n                            2020</h5>\n                        <h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">Missing Teeth\n                        </h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn, .mbr-link-btn\">Cras tempus consectetur venenatis.\n                            Quisque\n                            porttitor iaculis rutrum. Proin sed massa euismod, viverra lacus a, pellentesque nisi.\n                            Integer rutrum mi non est blandit rhoncus. Ut id enim est.</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.com/\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s15e9nXs5M",
           "_anchor": "features2-41",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script src=\"https://donorbox.org/widget.js\" paypalExpress=\"false\"></script>"
           ],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 20px)",
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@reverseContent)": {
+              ".container-boxes": {
+                "-webkit-box-orient": "horizontal",
+                "-webkit-box-direction": "reverse",
+                "flex-direction": "row-reverse"
+              },
+              ".box-item": {
+                "&:first-child": {
+                  "margin-left": "30px"
+                }
+              }
+            },
+            ".container-boxes": {
+              "padding-bottom": "(@paddingBottom * 15px)",
+              "position": "relative",
+              "display": "flex",
+              "-webkit-box-pack": "center",
+              "justify-content": "center",
+              "flex-wrap": "wrap",
+              "-webkit-box-align": "stretch",
+              "align-items": "stretch"
+            },
+            ".box-item": {
+              "width": "29%",
+              "&:first-child": {
+                "background-image": "url(@bgImg1)",
+                "-o-object-fit": "cover",
+                "object-fit": "cover",
+                "background-repeat": "no-repeat",
+                "background-size": "cover",
+                "margin-right": "30px"
+              },
+              ".wrap": {
+                "height": "100%",
+                "background-color": "@colorCol1",
+                "opacity": "0.8",
+                "padding": "2.5rem 2.5rem 1rem 2.5rem",
+                "border-radius": "5px"
+              },
+              ".headingicon": {
+                ".icon-block-top": {
+                  "padding-right": "20px",
+                  "font-size": "4.0375rem !important"
+                }
+              },
+              ".heading": {
+                ".box-item-title": {
+                  "letter-spacing": "2px",
+                  "line-height": "28px"
+                },
+                ".box-item-title.display-7": {
+                  "font-size": "16px",
+                  "font-weight": "600"
+                },
+                "h5": {
+                  "font-weight": "700"
+                },
+                "h5.display-7": {
+                  "font-size": "22px",
+                  "line-height": "32px"
+                }
+              },
+              "&-text": {
+                "margin-top": "20px",
+                "margin-bottom": "20px"
+              },
+              "&-text.display-7": {
+                "font-size": "16px",
+                "line-height": "1.5"
+              },
+              ".btn": {
+                "margin-left": "0 !important",
+                "margin-top": "0 !important",
+                "font-weight": "700",
+                "border-radius": "3px",
+                "border-width": "2px",
+                "padding": "12px 40px"
+              },
+              ".btn.display-4": {
+                "font-size": "12px",
+                "line-height": "24px",
+                "letter-spacing": "1px"
+              }
+            },
+            ".right-side": {
+              "background-color": "@colorCol3",
+              "padding": "50px 40px 15px 40px",
+              "border-radius": "5px",
+              "border-bottom": "1px solid @primaryColor",
+              "box-shadow": "0 9px 35px 0 rgba(26, 47, 106, 0.07)",
+              ".box-item": {
+                "width": "50%",
+                "border-radius": "5px",
+                "&:nth-child(1)": {
+                  "background-color": "transparent",
+                  "background-image": "none"
+                },
+                "&:last-child": {
+                  "background-color": "transparent",
+                  ".icon-block-top": {
+                    "margin-bottom": "20px",
+                    "span": {
+                      "color": "@primaryColor",
+                      "padding-right": "20px"
+                    },
+                    ".box-item-title": {
+                      "align-self": "center"
+                    }
+                  }
+                },
+                "&-title": {
+                  "color": "#28303f",
+                  "font-weight": "700"
+                },
+                "&-title.display-7": {
+                  "font-size": "20px",
+                  "line-height": "30px",
+                  "letter-spacing": "-0.5px"
+                },
+                ".box-item-text": {
+                  "color": "@infoColor",
+                  "line-height": "1.5"
+                }
+              }
+            },
+            ".box-list": {
+              "padding-left": "0",
+              "list-style": "none",
+              "margin-bottom": "0",
+              "color": "@infoColor",
+              "li": {
+                "border-bottom": "1px solid #e2e4e8",
+                "padding": "15px 0 15px",
+                "line-height": "24px",
+                "&:last-child": {
+                  "border-bottom": "none"
+                },
+                "span": {
+                  "float": "right",
+                  "text-align": "right",
+                  "padding-left": "0.5rem",
+                  "font-weight": "600"
+                }
+              }
+            },
+            ".media-content": {
+              "flex-basis": "initial"
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "left": "0",
+              "top": "0",
+              "background-color": "rgba(61, 61, 61, 0.65)",
+              "width": "100%",
+              "height": "100%",
+              ".modalWindow-container": {
+                "display": "table-cell",
+                "vertical-align": "middle"
+              },
+              ".modalWindow-video": {
+                "height": "calc(80vw / 1.778)",
+                "width": "80vw",
+                "margin": "0 auto"
+              }
+            },
+            "a.close": {
+              "position": "absolute",
+              "right": "4vw",
+              "top": "4vh",
+              "color": "@successColor",
+              "z-index": "5000000",
+              "font-size": "37px",
+              "background": "#000",
+              "padding": "20px",
+              "border-radius": "50%",
+              "&:hover": {
+                "color": "@successColor"
+              }
+            },
+            ".icon-wrap": {
+              "background-color": "@iconBGColor",
+              "opacity": "0.8",
+              "border-radius": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin": "auto",
+              "display": "flex",
+              "-webkit-box-pack": "center",
+              "justify-content": "center",
+              "-webkit-box-align": "center",
+              "align-items": "center",
+              "-webkit-transition": "all 0.3s",
+              "transition": "all 0.3s",
+              "-webkit-animation-delay": "0.3s",
+              "animation-delay": "0.3s",
+              "box-shadow": "0 0 0 0 rgba(255, 255, 255, 0.45)",
+              "-webkit-animation": "rippleOne 3s infinite",
+              "animation": "rippleOne 3s infinite",
+              "&:hover": {
+                "background-color": "@iconHoverColor !important"
+              },
+              "&:after": {
+                "content": "\"\"",
+                "position": "absolute",
+                "-webkit-animation-delay": "0.9s",
+                "animation-delay": "0.9s",
+                "box-shadow": "0 0 0 0 rgba(255, 255, 255, 0.45)",
+                "-webkit-animation": "rippleOne 2.9s infinite",
+                "animation": "rippleOne 2.9s infinite",
+                "width": "60px",
+                "height": "60px",
+                "z-index": "-1",
+                "border-radius": "50%",
+                "cursor": "pointer"
+              }
+            },
+            ".icon-wrap span": {
+              "padding-left": "8px"
+            },
+            ".mbr-media": {
+              "border-radius": "4px",
+              "flex-basis": "150%",
+              "margin-right": "15px",
+              "z-index": "70",
+              "height": "50%",
+              "background-image": "url(@bgImg2)",
+              "-o-object-fit": "cover",
+              "object-fit": "cover",
+              "background-repeat": "no-repeat",
+              "background-size": "cover"
+            },
+            ".mbr-media span": {
+              "font-size": "20px",
+              "cursor": "pointer",
+              "position": "relative",
+              "display": "inline-block",
+              "-webkit-transition": "all 0.25s",
+              "transition": "all 0.25s",
+              "color": "#000",
+              "&.mbri-play:before": {
+                "cursor": "pointer",
+                "position": "absolute",
+                "left": "50%",
+                "-webkit-transform": "translateX(-35%)",
+                "transform": "translateX(-35%)"
+              }
+            },
+            "@media (max-width: 1200px)": {
+              ".box-item": {
+                "width": "70%",
+                "max-width": "300px !important",
+                "&:first-child": {
+                  "margin-right": "10px"
+                },
+                ".wrap": {
+                  "padding": "2.5rem 1rem 1rem 1rem"
+                }
+              },
+              ".right-side": {
+                "padding": "50px 10px 15px 10px"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".box-item": {
+                "max-width": "400px"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".headingicon": {
+                "-webkit-box-pack": "center",
+                "justify-content": "center"
+              },
+              ".box-item": {
+                "margin-top": "0",
+                "max-width": "90% !important",
+                "width": "90% !important",
+                "&-text": {
+                  "text-align": "center"
+                }
+              },
+              ".mbr-section-btn": {
+                "text-align": "center"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".right-side": {
+                "flex-wrap": "wrap"
+              },
+              ".box-item:nth-child(2)": {
+                "margin-top": "7rem"
+              },
+              ".show-modal": {
+                "height": "80%"
+              }
+            },
+            ".mbr-section-btn": {
+              "color": "#232323",
+              ".btn": {
+                "border-radius": "3px",
+                "line-height": "1.7"
+              }
+            },
+            "h1": {
+              "color": "#232323"
+            },
+            "@-webkit-keyframes rippleOne": {
+              "70%": {
+                "box-shadow": "0 0 0 70px rgba(244, 68, 56, 0)"
+              },
+              "100%": {
+                "box-shadow": "0 0 0 0 rgba(244, 68, 56, 0)"
+              }
+            },
+            "@keyframes rippleOne": {
+              "70%": {
+                "box-shadow": "0 0 0 70px rgba(244, 68, 56, 0)"
+              },
+              "100%": {
+                "box-shadow": "0 0 0 0 rgba(244, 68, 56, 0)"
+              }
+            }
+          },
+          "_name": "features1",
+          "_customHTML": "<section class=\"features1\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n        'mbr-fullscreen': fullScreen,\n        'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\" checked>\n        <input type=\"color\" title=\"Color Column1\" name=\"colorCol1\" value=\"#4f87fb\">\n        <input type=\"image\" title=\"Image 1\" name=\"bgImg1\" value=\"../_images/img/02.jpg\">\n        <input type=\"image\" title=\"Image 2\" name=\"bgImg2\" value=\"@PROJECT_PATH@/assets/images/screen-shot-2020-06-15-at-06.52.45-2000x1139.jpeg\">\n        <input type=\"color\" title=\"Bg Color Right\" name=\"colorCol3\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon BG Color\" name=\"iconBGColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Hover Color\" name=\"iconHoverColor\" value=\"#f5f7fa\">\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"https://www.youtube.com/watch?v=97qVephsYyo\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n        <!-- <input type=\"color\" title=\"Bottom Background Color\" name=\"bottomBgColor\" value=\"#ffffff\"> -->\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-boxes\">\n        <div class=\"box-item mbr-white\">\n            <div class=\"wrap\">\n                <div class=\"headingicon d-flex align-items-center\">\n                    <div class=\"icon-block-top\">\n                        <span mbr-icon class=\"mbr-iconfont icon54-v1-open-hand1\"></span>\n                    </div>\n                    <div class=\"heading\">\n                        <h4 class=\"box-item-title mb-0 mbr-fonts-style\" data-app-selector=\".icon-block-top, .box-item-title\" mbr-theme-style=\"display-7\">Hello!</h4>\n                        <h5 class=\"mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\">Corporate and Philantropic Donors&nbsp;</h5>\n                    </div>\n                </div>\n                <p class=\"box-item-text mbr-fonts-style\" data-app-selector=\".box-item .wrap .box-item-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">We want learn more about your organizations mission and goals — &nbsp;Together we can make a incredible difference! Reach out below, many thanks.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-lg btn-white-outline btn-bgr\" href=\"https://mobirise.com\">CONTACT US</a>\n                </div>\n            </div>\n        </div>\n        <div class=\"right-side d-flex\">\n            <div class=\"box-item\">\n                <h4 class=\"box-item-title pb-3 mbr-fonts-style\" data-app-selector=\".right-side .box-item-title\" mbr-theme-style=\"display-7\">Global Impact</h4>\n                <div class=\"wrapper d-flex flex-row h-100\">\n                    <div class=\"mbr-media show-modal align-center d-flex\" data-modal=\".modalWindow\">\n                        <div class=\"icon-wrap\">\n                            <span mbr-icon class=\"mbr-iconfont fa-play fa\"></span>\n                        </div>\n                    </div>\n                    <p class=\"box-item-text mbr-fonts-style\" data-app-selector=\".right-side .box-item .box-item-text\" mbr-theme-style=\"display-7\">\n                        Watch our first webinar.</p>\n                </div>\n            </div>\n            <div class=\"box-item\">\n                <div class=\"icon-block-top d-flex\">\n                    <span mbr-icon class=\"mbr-iconfont icon54-v1-google-earth\" mbr-theme-style=\"display-2\"></span>\n                    <h4 class=\"box-item-title mbr-fonts-style\" data-app-selector=\".right-side .box-item-title\" mbr-theme-style=\"display-7\">Participation Open</h4>\n                </div>\n\n                <ul class=\"box-list mbr-fonts-style\" data-multiline mbr-article mbr-theme-style=\"display-4\" data-app-selector=\".box-list\">\n                    <li class=\"clearfix mbr-fonts-style\" mbr-theme-style=\"display-4\">Weekly Alliance Call<br>Wenesday<span>@ 2:30pm UTC</span></li>\n                    <li class=\"clearfix mbr-fonts-style\" mbr-theme-style=\"display-4\">Weekly Coordination Unit&nbsp;<br>Monday&nbsp;<span>@ 2:00pm UTC</span></li>\n                    <li class=\"clearfix mbr-fonts-style\" mbr-theme-style=\"display-4\">Action Pillars<span>Self Organized</span></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n    <div>\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s1XesRzg0i",
+          "_anchor": "features1-5w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
