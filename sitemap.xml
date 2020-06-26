@@ -24,12 +24,15 @@
 		<loc>https://endpandemics.earth/about.html</loc>
 	</url>
 	<url>
-		<loc>https://endpandemics.earth/donateSpecial.html</loc>
-	</url>
-	<url>
-		<loc>https://endpandemics.earth/events.16.06.2020.OneHealth.html</loc>
-	</url>
-	<url>
 		<loc>https://endpandemics.earth/events.html</loc>
+	</url>
+	<url>
+		<loc>https://endpandemics.earth/event-template.html</loc>
+	</url>
+	<url>
+		<loc>https://endpandemics.earth/donate-ind.html</loc>
+	</url>
+	<url>
+		<loc>https://endpandemics.earth/donate-org.html</loc>
 	</url>
 </urlset>
