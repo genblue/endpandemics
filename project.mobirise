@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "donate.html",
+    "currentPage": "donate-org.html",
     "theme": {
       "name": "medicalm4",
       "title": "MedicalM4",
@@ -9724,7 +9724,7 @@
     },
     "donate-org.html": {
       "settings": {
-        "title": "Donate Special | EndPandemics.earth",
+        "title": "Donate Org | EndPandemics.earth",
         "order": 5,
         "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. "
       },
