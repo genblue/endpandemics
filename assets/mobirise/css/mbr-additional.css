@@ -551,13 +551,13 @@ blockquote {
 .mbr-form .input-group-btn a.btn {
   border-radius: 100px !important;
 }
-.mbr-form .input-group-btn button[type="submit"] {
+.mbr-form .input-group-btn button[type='submit'] {
   border-radius: 100px !important;
 }
 .btn-primary:hover {
-  color: #4f87fb !important;
-  background: white !important;
-  border-color: white !important;
+  color: #ffffff !important;
+  background: #130947 !important;
+  border-color: #130947 !important;
 }
 .form-control,
 .jq-number__spin {
@@ -1289,6 +1289,9 @@ section.lazy-placeholder:after {
   margin-bottom: 1rem;
 }
 @media (min-width: 1200px) {
+  .cid-rXFsGxh9rC .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(100vh - 3.8rem  - 1rem);
+  }
   .cid-rXFsGxh9rC .collapsed .dropdown .dropdown-menu {
     overflow: hidden;
   }
