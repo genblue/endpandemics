@@ -24,9 +24,6 @@
 		<loc>https://endpandemics.earth/about.html</loc>
 	</url>
 	<url>
-		<loc>https://endpandemics.earth/events.html</loc>
-	</url>
-	<url>
 		<loc>https://endpandemics.earth/event-template.html</loc>
 	</url>
 	<url>
@@ -61,5 +58,8 @@
 	</url>
 	<url>
 		<loc>https://endpandemics.earth/events-mascot.html</loc>
+	</url>
+	<url>
+		<loc>https://endpandemics.earth/media-events.html</loc>
 	</url>
 </urlset>
