@@ -15157,6 +15157,15 @@ section.lazy-placeholder:after {
 .cid-sfzxrzIjpO .mbr-text-left {
   text-align: left;
 }
+.cid-sfzXNkCPU8 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-sfzXNkCPU8 .mbr-text,
+.cid-sfzXNkCPU8 .ornament {
+  text-align: left;
+}
 .cid-sfzVfRqph5 {
   padding-top: 60px;
   padding-bottom: 30px;
@@ -15245,8 +15254,8 @@ section.lazy-placeholder:after {
   color: #777;
 }
 .cid-sfzVqRpdyX {
-  padding-top: 90px;
-  padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 30px;
   background-color: #4f87fb;
   background: linear-gradient(to bottom, #4f87fb, #0053f9);
 }
