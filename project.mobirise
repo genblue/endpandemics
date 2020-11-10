@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "solutions-all.html",
     "theme": {
       "name": "medicalm4",
       "title": "MedicalM4",
@@ -10953,7 +10953,7 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "slides__autoplay": true,
+            "slides__autoplay": "true",
             "slides__autoplayInterval": "3000",
             "slides__showBullets": true,
             "slides": [
