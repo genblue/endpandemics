@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "about.html",
+    "currentPage": "action-china-wildlife-protection-law.html",
     "theme": {
       "name": "medicalm4",
       "title": "MedicalM4",
@@ -53,7 +53,7 @@
     "uniqCompNum": 461,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
-    "robotsText": "User-agent: *\nDisallow: /*.jpg$\nDisallow: /*.png$\nDisallow: /*.gif$\n\n",
+    "robotsText": "User-agent: *\n\n\n",
     "google-analytics": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WMQ3ZC6\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-167025736-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-167025736-1');\n</script>\n<script>\n  window.intercomSettings = {\n    app_id: \"oqmxj1zf\"\n  };\n</script>\n\n<script>\n// We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/oqmxj1zf'\n(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/oqmxj1zf';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();\n</script>\n\n<!-- MailerLite Universal -->\n<script>\n(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){\nvar c={ a:arguments,q:[]};var r=this.push(c);return \"number\"!=typeof r?r:f.bind(c.q);}\nf.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);\nvar _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));\n_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');\n\nvar ml_account = ml('accounts', '1168876', 'e7j9e1r8h1', 'load');\n</script>\n<!-- End MailerLite Universal -->\n",
     "cookiesAlert": {
       "customDialogSelector": false,
@@ -19546,11 +19546,11 @@
           "_sourceTheme": "medicalm4",
           "_customHTML": "<section class=\"extCountdown\" group=\"Additional Blocks\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2020/11/17\">\n        <input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"Days\">\n        <input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"Hours\">\n        <input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"Minutes\">\n        <input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"Seconds\">\n        <input type=\"color\" title=\"Numbers Color\" name=\"numbersColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Countdown Background\" name=\"countdownBg\" value=\"#0053f9\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid pt-5 pb-5 full-count-container\">\n        <div class=\"container\">\n            <div class=\"row justify-content-center\">\n                <div class=\"col-lg-6 mbr-white\" mbr-if=\"showText\" mbr-class=\"{'order-2 pt-lg-0 pt-2':reverseContent, 'pb-lg-0 pb-2':!reverseContent}\">\n                    <h2 class=\"mbr-section-title mbr-fonts-style m-0\" mbr-theme-style=\"display-2\">Time&nbsp;</h2>\n                </div>\n                <div class=\"countdown-cont align-center col-lg-6\">\n                    <div title=\"{{daysCountdown}}\" class=\"daysCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n                    <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n                    <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n                    <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n                    <div class=\"countdown \" data-due-date=\"{{countdown}}\">\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sfBQSTVrkw",
+          "_anchor": "extCountdown3-co",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "extCountdown3-co"
+          "_params": {}
         },
         {
           "alias": false,
