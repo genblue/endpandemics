@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "about.html",
+    "currentPage": "g20-press-release.html",
     "theme": {
       "name": "medicalm4",
       "title": "MedicalM4",
@@ -50,7 +50,7 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://endpandemics.earth",
-    "uniqCompNum": 461,
+    "uniqCompNum": 467,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\n\n\n",
@@ -2530,7 +2530,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
@@ -3094,7 +3094,7 @@
         "header_custom": "<meta name=\"google-site-verification\" content=\"lry-LWrBHfqTdqSd7UTvR5zVTinqDo8UgTZMYDch3Vk\" />\n\n<!-- Primary Meta Tags -->\n<title>Protect and Regenerate Nature to Prevent Zoonotic Outbreaks</title>\n<meta name=\"title\" content=\"End Pandemics. Protect and Regenerate Nature to Prevent Zoonotic Outbreaks\"/>\n<meta name=\"description\" content=\"A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss.\"/>\n\n<!-- Open Graph / Facebook -->\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" content=\"https://endpandemics.earth\"/>\n<meta property=\"og:title\" content=\"Protect and Regenerate Nature to Prevent Zoonotic Outbreaks\"/>\n<meta property=\"og:description\" content=\"A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss.\" />\n<meta property=\"og:image\" content=\"https://endpandemics.earth/assets/images/socialshare.jpg\"/>\n<meta property=\"og:image:secure_url\" content=\"https://endpandemics.earth/assets/images/socialshare.jpg\"/>\n<meta property=\"og:image:type\" context=\"image/jpeg\"/> \n\n\n\n\n<!-- Twitter -->\n<meta property=\"twitter:card\" content=\"summary_large_image\"/>\n<meta property=\"twitter:url\" content=\"https://endpandemics.earth\"/>\n<meta property=\"twitter:title\" content=\"Protect and Regenerate Nature to Prevent Zoonotic Outbreaks\"/>\n<meta property=\"twitter:description\" content=\"A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss.\"/>\n<meta property=\"twitter:image\" content=\"https://endpandemics.earth/assets/images/socialshare.jpg/\">\n\n<script type=\"text/javascript\">\n<!--\n    function fftogglevisibility(id) {\n       var e = document.getElementById(id);\n       if(e.style.display === 'none')\n          e.style.display = 'block';\n       else\n          e.style.display = 'none';\n    }\n//-->\n</script>",
         "footer_custom": "",
         "html_before": "",
-        "order": 17,
+        "order": 18,
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg"
       },
       "components": [
@@ -4239,7 +4239,7 @@
     "tools.html": {
       "settings": {
         "title": "Tools | EndPandemics.earth",
-        "order": 15,
+        "order": 17,
         "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. "
       },
       "components": [
@@ -4665,7 +4665,7 @@
     "privacyAndTerms.html": {
       "settings": {
         "title": "Privacy Policy and Terms | EndPandemics.earth",
-        "order": 18,
+        "order": 19,
         "meta_descr": "End Pandemics privacy policy and terms of service."
       },
       "components": [
@@ -5211,7 +5211,7 @@
     "join.html": {
       "settings": {
         "title": "Join | EndPandemics.earth",
-        "order": 11,
+        "order": 13,
         "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. ",
         "header_custom": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg"
@@ -5619,7 +5619,7 @@
     "donate.html": {
       "settings": {
         "title": "Donate | EndPandemics.earth",
-        "order": 12,
+        "order": 14,
         "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. ",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg"
       },
@@ -6005,7 +6005,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -8205,8 +8205,8 @@
     "event-template.html": {
       "settings": {
         "title": "Event | Template | EndPandemics.earth",
-        "order": 21,
-        "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. "
+        "order": 22,
+        "meta_descr": "G20 Press Release, EndPandemics.earth, 20 November 2020. Act now to invest in nature or face biodiversity collapse and further pandemics, ‘Wildlife Conservation 20’ tells G20. A new initiative involving 20 of the world’s leading conservation organisations today issued an unprecedented joint declaration to the G20 calling for urgent action to dramatically boost investment in nature to avoid future disastrous pandemics."
       },
       "components": [
         {
@@ -8974,7 +8974,7 @@
     "donate-ind.html": {
       "settings": {
         "title": "Donate Individuals | EndPandemics.earth",
-        "order": 13,
+        "order": 15,
         "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. ",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg"
       },
@@ -9328,7 +9328,7 @@
     "donate-org.html": {
       "settings": {
         "title": "Donate Org | EndPandemics.earth",
-        "order": 14,
+        "order": 16,
         "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. ",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg"
       },
@@ -10073,7 +10073,7 @@
     "actions.html": {
       "settings": {
         "title": "Actions | EndPandemics.earth",
-        "order": 16,
+        "order": 2,
         "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. "
       },
       "components": [
@@ -10504,7 +10504,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -11550,7 +11550,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -12588,7 +12588,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -13626,7 +13626,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -14664,7 +14664,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -15702,7 +15702,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -16740,7 +16740,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -17773,7 +17773,7 @@
     "events-mascot.html": {
       "settings": {
         "title": "Events (Wile Mascot) Backup",
-        "order": 20,
+        "order": 21,
         "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. ",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg"
       },
@@ -18652,7 +18652,7 @@
     "media-events.html": {
       "settings": {
         "title": "Media & Events | EndPandemics.earth",
-        "order": 10,
+        "order": 11,
         "meta_descr": "A global alliance of organizations —representing conservation, health, finance, security, agroforestry, business, technology, and education fields—are uniting to deploy nature protection programs that will lead our world away from more human suffering, economic disaster, and species loss. ",
         "meta_image": "@PROJECT_PATH@/assets/images/ep-socialshare-1200x628.jpg"
       },
@@ -20322,6 +20322,415 @@
           "_anchor": "title1-cc",
           "_isUserblock": true,
           "_cid": "sfxZRRCNFR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "g20-press-release.html": {
+      "settings": {
+        "title": "Media | G20 Press Release",
+        "order": 12,
+        "meta_descr": "G20 Press Release, EndPandemics.earth, 20 November 2020. Act now to invest in nature or face biodiversity collapse and further pandemics, ‘Wildlife Conservation 20’ tells G20. A new initiative involving 20 of the world’s leading conservation organisations today issued an unprecedented joint declaration to the G20 calling for urgent action to dramatically boost investment in nature to avoid future disastrous pandemics."
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text, .mbr-section-title": {
+              "letter-spacing": "-0.5px"
+            },
+            ".img span": {
+              "font-size": "80px",
+              "color": "@successColor"
+            },
+            ".mbr-text, .mbr-section-btn, .mbr-section-title": {
+              "color": "@successColor"
+            },
+            ".mbr-text": {
+              "margin-bottom": "0",
+              "font-weight": "700"
+            },
+            ".mbr-text.display-7": {
+              "line-height": "28px",
+              "letter-spacing": "-0.5px"
+            },
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".mbr-section-title.display-2": {
+              "line-height": "50px",
+              "letter-spacing": "-0.5px"
+            },
+            ".btn": {
+              "border-radius": "4px",
+              "padding-top": "12px",
+              "padding-bottom": "12px",
+              "padding-left": "40px",
+              "padding-right": "40px",
+              "letter-spacing": "1px",
+              "line-height": "24px",
+              "border-width": "2px"
+            },
+            "@media (max-width: 768px)": {
+              ".mbr-section-title, .mbr-text, .mbr-section-btn": {
+                "text-align": "left"
+              }
+            }
+          },
+          "_name": "info1",
+          "_sourceTheme": "medicalm4",
+          "_customHTML": "<section class=\"info1\" group=\"Info\" data-bg-video=\"{{bg.type == 'video'&amp;&amp;bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked=\"\" condition=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Icon\" name=\"showIcon\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" title=\"Background Image\">\n            <input type=\"color\" value=\"#4f87fb\" title=\"Background Color\" selected=\"\">\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\" title=\"Background Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4f87fb\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-8\">\n                <div class=\"wrap d-flex\">\n                    <div class=\"img\" mbr-if=\"showIcon\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mdi-notification-event-available\"></span>\n                    </div>\n                    <div class=\"wrap-text d-flex flex-column ml-4\">\n                        <p class=\"mbr-text align-left mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"index.html#header5-1\" class=\"text-white\">&lt; BACK</a></p>\n                        <h1 class=\"mbr-section-title align-left mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .card-img\">Get a free medical\n                            checkup</h1>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4 align-self-center\">\n                <div class=\"mbr-section-btn\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">CONTACT US</a></div>\n            </div>\n        </div>\n    </div>\n    \n    <div mbr-if=\"showArrow &amp;&amp; fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_anchor": "info1-cw",
+          "_isUserblock": true,
+          "_cid": "sgQ35lR24A",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@cardsAmount > 3)": {
+              ".card-wrapper .card-img .meta-category": {
+                "top": "165px"
+              }
+            },
+            ".contents": {
+              "text-align": "center",
+              "margin-bottom": "54px",
+              ".mbr-subtitle": {
+                "color": "#4f87fb",
+                "margin-bottom": "10px",
+                "font-weight": "800"
+              },
+              ".mbr-subtitle.display-4": {
+                "font-size": "13px",
+                "letter-spacing": "2px",
+                "line-height": "1.85"
+              },
+              ".mbr-section-title": {
+                "margin-bottom": "20px",
+                "line-height": "1.2",
+                "letter-spacing": "-0.5px",
+                "font-weight": "700",
+                "color": "#130947"
+              },
+              ".mbr-section-text": {
+                "margin-top": "20px",
+                "color": "#6d7a8c",
+                "letter-spacing": "0",
+                "line-height": "1.5"
+              }
+            },
+            ".card-wrapper": {
+              "height": "100%",
+              ".card-box": {
+                "padding-top": "2rem",
+                ".card-title": {
+                  "color": "#28303f",
+                  "transition": "0.3s all",
+                  "font-weight": "700",
+                  "margin-bottom": "10px",
+                  "&:hover": {
+                    "color": "@cardTitleHover",
+                    "transition": "0.3s all"
+                  }
+                },
+                ".card-title.display-5": {
+                  "font-size": "22px",
+                  "line-height": "1.27",
+                  "letter-spacing": "-0.5px"
+                },
+                ".card-subtitle": {
+                  "color": "#a0a9b6",
+                  "letter-spacing": "1px",
+                  "font-weight": "700",
+                  "margin-bottom": "10px"
+                },
+                ".card-subtitle.display-4": {
+                  "font-size": "12px"
+                },
+                ".mbr-text": {
+                  "margin-bottom": "25px",
+                  "color": "#6d7a8c",
+                  "font-weight": "400"
+                },
+                ".mbr-text.display-4": {
+                  "font-size": "16px",
+                  "line-height": "1.5"
+                },
+                ".mbr-iconfont": {
+                  "padding-left": "0.2rem"
+                }
+              },
+              ".card-img": {
+                "position": "relative",
+                "img": {
+                  "transition": "all 0.3s",
+                  "border-radius": "8px"
+                },
+                ".meta-category": {
+                  "background-color": "@primaryColor",
+                  "display": "inline-block",
+                  "padding": "6px 25px",
+                  "color": "#fff",
+                  "position": "absolute",
+                  "bottom": "-15px",
+                  "right": "35px",
+                  "text-transform": "uppercase",
+                  "font-size": "12px",
+                  "letter-spacing": "0.5px",
+                  "z-index": "9",
+                  "border-radius": "15px",
+                  ".btn": {
+                    "font-weight": "600 !important",
+                    "&:hover": {
+                      "color": "currentColor !important"
+                    }
+                  }
+                }
+              },
+              ".mbr-link-btn": {
+                ".btn": {
+                  "font-weight": "700",
+                  "line-height": "2",
+                  "letter-spacing": "1px"
+                },
+                ".btn.display-4": {
+                  "font-size": "12px"
+                }
+              }
+            },
+            ".btn[class*='-outline']": {
+              "border": "none",
+              "padding": "0",
+              "margin": "0 !important",
+              "box-shadow": "none !important",
+              "span": {
+                "order": "2",
+                "font-size": "0.8rem",
+                "font-weight": "900",
+                "transition": "padding 0.3s !important"
+              },
+              "&:hover span": {
+                "padding-left": "10px"
+              },
+              "&:hover": {
+                "background-color": "transparent !important",
+                "color": "@btnHover !important",
+                "box-shadow": "none !important"
+              },
+              "&:active, &:focus": {
+                "background-color": "transparent !important",
+                "box-shadow": "none !important"
+              }
+            },
+            ".card-wrapper .card-box .mbr-text, .mbr-link-btn": {
+              "color": "#333333"
+            },
+            ".contents .mbr-section-text": {
+              "color": "#333333"
+            }
+          },
+          "_name": "features2",
+          "_sourceTheme": "medicalm4",
+          "_customHTML": "<section class=\"features2 medicalm4_features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Subtitle\" name=\"showCardSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"showCardText\" checked>\n\t\t<input type=\"checkbox\" title=\"Link\" name=\"showLink\" checked>\n\t\t<select title=\"Cards\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\" selected>1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\">3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<input type=\"color\" name=\"cardTitleHover\" title=\"Card Title Hover\" value=\"#4f87fb\" selected>\n\t\t<input type=\"color\" name=\"btnHover\" title=\"Button Hover\" value=\"#4f87fb\" selected>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"contents\">\n\t\t\t<h3 class=\"mbr-subtitle mbr-fonts-style mbr-bold\" data-app-selector=\".contents .mbr-subtitle\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">20 NOVEMBER 2020</h3>\n\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-bold\" data-app-selector=\".contents .mbr-section-title\" mbr-if=\"showMainTitle\" mbr-theme-style=\"display-2\">PRESS RELEASE</h1>\n\t\t\t<h2 class=\"mbr-section-text mbr-fonts-style mbr-light\" data-app-selector=\".contents .mbr-section-text\" mbr-if=\"showText\" mbr-theme-style=\"display-2\">Act now to invest in nature or face biodiversity collapse and further pandemics, ‘Wildlife Conservation 20’ tells G20.</h2>\n\t\t</div>\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/ep-pressrelease.png\" alt=\"Mobirise\">\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a class=\"btn btn-md btn-white-outline\" href=\"assets/files/PR-forG20-20Nov2020.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">DOWNLOAD PDF</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">20 NOVEMBER 2020</h5>\n\t\t\t\t\t\t<h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">PRESS RELEASE</h4>\n\t\t\t\t\t\t<p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn\">Act now to invest in nature or face biodiversity collapse and further pandemics, ‘Wildlife Conservation 20’ tells G20.<br><br>• ‘WC20’ is unprecedented gathering of the world’s 20 top conservation groups <br>• Covid-19 points to invest in “planetary health”, joint declaration warns<br>• Time to act is now to protect health of people and planet&nbsp;<br></p>\n\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"assets/files/PR-forG20-20Nov2020.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD PDF</a></div>\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<img src=\"../_images/img/04.jpg\" alt=\"Mobirise\">\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">IMPLANTS</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">09 FEB,\n\t\t\t\t\t\t\t2025</h5>\n\t\t\t\t\t\t<h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">Patient\n\t\t\t\t\t\t\tStories</h4>\n\t\t\t\t\t\t<p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn\">Cras tempus consectetur\n\t\t\t\t\t\t\tvenenatis.\n\t\t\t\t\t\t\tQuisque\n\t\t\t\t\t\t\tporttitor iaculis rutrum. Proin sed massa euismod, viverra lacus a, pellentesque nisi.\n\t\t\t\t\t\t\tInteger rutrum mi non est blandit rhoncus. Ut id enim est.</p>\n\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<img src=\"../_images/img/07.jpg\" alt=\"Mobirise\">\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">ORAL</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">08 FEB,\n\t\t\t\t\t\t\t2025</h5>\n\t\t\t\t\t\t<h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">\n\t\t\t\t\t\t\tOur Community\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn\">Cras tempus consectetur\n\t\t\t\t\t\t\tvenenatis.\n\t\t\t\t\t\t\tQuisque\n\t\t\t\t\t\t\tporttitor iaculis rutrum. Proin sed massa euismod, viverra lacus a, pellentesque nisi.\n\t\t\t\t\t\t\tInteger rutrum mi non est blandit rhoncus. Ut id enim est.</p>\n\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<img src=\"../_images/img/08.jpg\" alt=\"Mobirise\">\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn meta-category\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">COSMETIC</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<h5 class=\"card-subtitle align-left mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".card-wrapper .card-box .card-subtitle, .mbr-link-btn\">10 FEB,\n\t\t\t\t\t\t\t2025</h5>\n\t\t\t\t\t\t<h4 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-wrapper .card-box .card-title, .mbr-link-btn\">Missing Teeth\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\" data-app-selector=\".card-wrapper .card-box .mbr-text, .mbr-link-btn, .mbr-link-btn\">Cras\n\t\t\t\t\t\t\ttempus consectetur venenatis.\n\t\t\t\t\t\t\tQuisque\n\t\t\t\t\t\t\tporttitor iaculis rutrum. Proin sed massa euismod, viverra lacus a, pellentesque nisi.\n\t\t\t\t\t\t\tInteger rutrum mi non est blandit rhoncus. Ut id enim est.</p>\n\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-link-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "sgQ335NRVg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features2-cv"
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#9c969b"
+            },
+            "@media (min-width: 992px)": {
+              "img": {
+                "width": "90%"
+              }
+            },
+            ".social-list": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "align-items": "center"
+            },
+            ".items": {
+              "margin-bottom": "0"
+            },
+            ".soc-item": {
+              "width": "20px",
+              "height": "20px",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "margin": "0.25rem 0.3rem",
+              "span": {
+                "font-size": "1rem",
+                "color": "@iconsColor !important",
+                "transition": "all 0.3s"
+              },
+              "&:hover": {
+                "span": {
+                  "color": "@primaryColor !important"
+                }
+              }
+            },
+            ".items-col": {
+              "line-height": "2.5",
+              "margin": "0"
+            },
+            "@media (max-width: 767px)": {
+              ".social-list": {
+                "justify-content": "center"
+              }
+            }
+          },
+          "_name": "extContacts4",
+          "_sourceTheme": "medicalm4",
+          "_customHTML": "<section class=\"content4\" group=\"Content\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#767676\">\n        <input inline type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12\">\n                <h4 class=\"card-title mbr-semibold pb-2 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">About EndPandemics</h4>\n            </div>\n\n            <div class=\"col-lg-8\">\n\n                <p class=\"mbr-text pb-2 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">EndPandemics (https://endpandemics.earth) is a global alliance and action campaign that strives to reduce the risks of pandemics by addressing the root causes of zoonotic outbreaks – commercial wildlife trade, disruption of wild habitats, and wildlife dependence of poverty-affected livelihoods. The alliance was launched in April 2020 and comprises a fast-growing array of organizations (presently over 60) that operate across five continents in conservation, agriculture, climate, health, business, technology, security, media, and other sectors.&nbsp;<br></p>\n            </div>\n\n            <div class=\"col-lg-4\">\n\n\n                <p class=\"items items-col align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".items\">\n                    <b>FREELAND:&nbsp;</b>tbd@tbd.org<br><b>ENV VIETNAM:</b> &nbsp;tbd@tbd.org<br><b>EIA: </b>tbd@tbd.org<br><b>DATE:\n                    </b>&nbsp;20 November 2020<br></p>\n\n\n                <div class=\"social-list pt-2 align-left\" mbr-if=\"iconsCount > 0\">\n\n                    <p class=\"items align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".items\"><b>\n                            SHARE:&nbsp;</b></p>\n\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-googleplus socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-skype socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>6\">\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-googleplus socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>7\">\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-googleplus socicon\"></span>\n                        </a>\n                    </div>\n\n                </div>\n\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgQ5FgYiOF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extContacts4-cy"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value",
+              "& when (@isGradientBg)": {
+                "background": "linear-gradient(to bottom, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff",
+              "font-weight": "700",
+              "line-height": "20px",
+              "letter-spacing": "2px",
+              "width": "100%",
+              "& when (@showFrame)": {
+                "background-color": "@frameColor",
+                "padding": "5px 14px",
+                "color": "@successColor",
+                "display": "table"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-weight": "700",
+              "width": "100%"
+            },
+            ".mbr-section-title.display-2": {
+              "font-size": "48px",
+              "line-height": "55px",
+              "letter-spacing": "-0.5px"
+            },
+            ".mbr-text": {
+              "color": "@successColor",
+              "font-weight": "400",
+              "width": "100"
+            },
+            ".mbr-text.display-7": {
+              "font-size": "20px",
+              "line-height": "30px"
+            },
+            ".content-link": {
+              "display": "flex",
+              "-webkit-box-pack": "justify",
+              "justify-content": "space-between",
+              "-webkit-box-align": "center",
+              "align-items": "center",
+              "color": "@secondaryColor",
+              "margin-left": "0.6rem",
+              "span": {
+                "margin-right": "15px",
+                "margin-left": "20px",
+                "padding": "10px",
+                "border-radius": "100%",
+                "color": "#ffffff",
+                "background-color": "#ffffff",
+                "font-size": "2.475rem"
+              }
+            },
+            ".mbr-section-btn": {
+              ".btn": {
+                "border-radius": "3px",
+                "line-height": "24px",
+                "letter-spacing": "1px",
+                "padding": "12px 40px !important",
+                "margin-right": "20px"
+              }
+            },
+            ".mbr-section-btn.display-4, .btn.display-4": {
+              "font-size": "12px !important"
+            },
+            "@media (max-width: 991px)": {
+              ".separator, .sep-holder, .sep-line": {
+                "display": "none !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".mbr-section-subtitle": {
+                "& when (@showFrame)": {
+                  "margin-left": "auto",
+                  "margin-right": "auto"
+                }
+              },
+              ".buttons-wrap": {
+                "-webkit-box-orient": "vertical",
+                "-webkit-box-direction": "normal",
+                "flex-direction": "column"
+              }
+            }
+          },
+          "_name": "title1",
+          "_sourceTheme": "medicalm4",
+          "_customHTML": "<section class=\"title1\" group=\"Title\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <select title=\"Text Position\" name=\"justify\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected=\"\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Subtitle Frame\" name=\"showFrame\" condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Frame Color\" name=\"frameColor\" value=\"#fd7e14\" condition=\"showFrame\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        \n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"https://www.youtube.com/watch?v=J21qu_vspfg\" condition=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/03-2.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#4f87fb\" title=\"Color\" selected=\"\">\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"isGradientBg\" checked=\"\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#0053f9\" condition=\"bg.type=='color' &amp;&amp; isGradientBg\" selected=\"\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 col-md-12\">\n                <div class=\"wrap d-flex flex-column\" mbr-class=\"{'align-items-start': justify == 1, 'align-items-center': justify == 2, 'align-items-end': justify == 3}\">\n                    <p class=\"mbr-section-subtitle mbr-bold align-center pb-1 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-title .accent-word, .mbr-section-btn\">#EndPandemics</p>\n                    <img src=\"@PROJECT_PATH@/assets/images/ep-logo-white.svg\" alt=\"\" mbr-style=\"{'height': 4 + 'rem'}\" title=\"EndPandemics.earth\">\n                    <!-- h1 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\">EndPandemics.earth</h1 -->\n                    <p class=\"mbr-text align-center pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"privacyAndTerms.html\" class=\"text-white\">Privacy Policy</a> | <a href=\"privacyAndTerms.html\" class=\"text-white\">Cookie Policy</a><br><br>© 2020 - All Rights Reserved</p>\n                    <div class=\"buttons-wrap w-100 mt-4\">\n                        <div class=\"mbr-section-btn align-center \" mbr-buttons=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                            <a class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                                PURCHASE NOW</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "title1-cx",
+          "_isUserblock": true,
+          "_cid": "sgQ57GDIj2",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
