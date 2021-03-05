@@ -57,9 +57,6 @@
 		<loc>https://endpandemics.earth/events-mascot.html</loc>
 	</url>
 	<url>
-		<loc>https://endpandemics.earth/media-events.html</loc>
-	</url>
-	<url>
 		<loc>https://endpandemics.earth/action-china-wildlife-protection-law.html</loc>
 	</url>
 	<url>
@@ -67,5 +64,8 @@
 	</url>
 	<url>
 		<loc>https://endpandemics.earth/participate.html</loc>
+	</url>
+	<url>
+		<loc>https://endpandemics.earth/news-and-events.html</loc>
 	</url>
 </urlset>
