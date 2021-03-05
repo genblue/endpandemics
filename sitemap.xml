@@ -9,9 +9,6 @@
 		<loc>https://endpandemics.earth/presskit.html</loc>
 	</url>
 	<url>
-		<loc>https://endpandemics.earth/tools.html</loc>
-	</url>
-	<url>
 		<loc>https://endpandemics.earth/privacyAndTerms.html</loc>
 	</url>
 	<url>
@@ -67,5 +64,8 @@
 	</url>
 	<url>
 		<loc>https://endpandemics.earth/g20pressrelease.html</loc>
+	</url>
+	<url>
+		<loc>https://endpandemics.earth/participate.html</loc>
 	</url>
 </urlset>
