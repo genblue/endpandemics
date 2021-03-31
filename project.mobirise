@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "actions-th.html",
+    "currentPage": "faqs.html",
     "theme": {
       "name": "medicalm4",
       "title": "MedicalM4",
@@ -50,7 +50,7 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://endpandemics.earth",
-    "uniqCompNum": 517,
+    "uniqCompNum": 519,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\n\n\n",
@@ -24393,185 +24393,19 @@
           "_anchor": "title1-di"
         },
         {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".title-text": {
-              ".mbr-section-subtitle": {
-                "color": "#4f87fb",
-                "font-weight": "800"
-              },
-              ".mbr-section-subtitle.display-4": {
-                "font-size": "13px",
-                "line-height": "1.85",
-                "letter-spacing": "2px"
-              },
-              ".mbr-section-title": {
-                "color": "#130947",
-                "span": {
-                  "font-weight": "900"
-                }
-              },
-              ".mbr-section-title.display-2": {
-                "line-height": "1.2",
-                "letter-spacing": "-0.5px"
-              },
-              "margin-bottom": "70px"
-            },
-            ".mbr-iconfont": {
-              "font-family": "'Moririse2' !important",
-              "display": "inline-flex",
-              "-webkit-transform-origin": "",
-              "transform-origin": "",
-              "-webkit-transform": "rotate(45deg)",
-              "transform": "rotate(45deg)",
-              "-webkit-transition": "all 0.3s",
-              "transition": "all 0.3s",
-              "padding": "0 !important",
-              "font-size": "1.4rem !important",
-              "color": "@iconColor",
-              "&:before": {
-                "-webkit-transform": "scaleY(0) !important",
-                "transform": "scaleY(0) !important",
-                "-webkit-transition": "all 0.3s",
-                "transition": "all 0.3s"
-              }
-            },
-            ".collapsed": {
-              ".mbr-iconfont": {
-                "-webkit-transform": "rotate(0deg)",
-                "transform": "rotate(0deg)",
-                "&:before": {
-                  "-webkit-transform": "scaleY(1) !important",
-                  "transform": "scaleY(1) !important",
-                  "-webkit-transition": "all 0.3s",
-                  "transition": "all 0.3s"
-                }
-              }
-            },
-            ".accordion-content": {
-              "flex-basis": "100%"
-            },
-            ".panel-group": {
-              "width": "100%"
-            },
-            ".panel-text, .header-text, .mbr-section-subtitle": {
-              "color": "#222222"
-            },
-            ".card": {
-              "margin-bottom": "30px",
-              "margin-top": "30px",
-              "border": "none",
-              "border-radius": "0 !important",
-              ".card-header": {
-                "border-radius": "0 !important",
-                "border-bottom": "none !important",
-                "padding": "0",
-                "a.panel-title": {
-                  "-webkit-box-pack": "justify",
-                  "justify-content": "space-between",
-                  "-webkit-transition": "all 0.3s",
-                  "transition": "all 0.3s",
-                  "background-color": "@accordionColor",
-                  "margin-bottom": "0",
-                  "font-style": "normal",
-                  "display": "flex",
-                  "-webkit-box-align": "center",
-                  "align-items": "center",
-                  "text-decoration": "none !important",
-                  "border-radius": "0 !important",
-                  "line-height": "normal",
-                  "&:focus": {
-                    "text-decoration": "none !important"
-                  },
-                  ".sign": {
-                    "padding-right": "1rem"
-                  },
-                  "h4": {
-                    "padding": "17px 42px 17px 35px",
-                    "margin-bottom": "0",
-                    "width": "100%",
-                    "line-height": "1.5",
-                    "font-weight": "400 !important",
-                    ".sign": {
-                      "padding-right": "1rem",
-                      "line-height": "1.6 !important"
-                    }
-                  },
-                  ".toggle-icon": {
-                    "right": "20px",
-                    "position": "absolute",
-                    "top": "29px",
-                    "-webkit-transform": "none",
-                    "transform": "none",
-                    "display": "inline-block",
-                    "height": "2px",
-                    "margin-left": "0",
-                    "width": "12px",
-                    "&:before, &:after": {
-                      "background": "currentColor",
-                      "border": "0",
-                      "box-sizing": "border-box",
-                      "content": "''",
-                      "display": "block",
-                      "left": "50%",
-                      "position": "absolute",
-                      "top": "50%"
-                    },
-                    "&:before": {
-                      "height": "12px",
-                      "margin-left": "-1px !important",
-                      "width": "2px",
-                      "margin-top": "-6px",
-                      "background-color": "currentColor",
-                      "border": "0",
-                      "-webkit-transform": "none",
-                      "transform": "none"
-                    },
-                    "&:after": {
-                      "height": "2px",
-                      "width": "12px",
-                      "margin-left": "-6px",
-                      "margin-top": "-1px"
-                    }
-                  },
-                  "&[aria-expanded='true']": {
-                    "background-color": "@activePanelColor",
-                    "-webkit-transition": "all 0.3s",
-                    "transition": "all 0.3s",
-                    ".header-text, .sign": {
-                      "color": "contrast(@activePanelColor) !important",
-                      "-webkit-transition": "all 0.3s",
-                      "transition": "all 0.3s"
-                    }
-                  }
-                }
-              },
-              ".panel-body": {
-                "background": "@panelColor",
-                "padding": "30px 55px 35px 40px !important",
-                ".display-4": {
-                  "font-size": "16px"
-                }
-              }
-            }
-          },
-          "_name": "accordion2",
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<iframe class=\"airtable-embed\" src=\"https://airtable.com/embed/shr1KVTPpE8E7jngH?backgroundColor=blue&amp;viewControls=off\" frameborder=\"0\" onmousewheel=\"\" width=\"100%\" height=\"533\" style=\"background: transparent; border: 1px solid #ccc;\"></iframe>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
           "_sourceTheme": "medicalm4",
-          "_customHTML": "<section class=\"accordion2 medicalm4_accordion2\" group=\"Accordions\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\">\n\t\t<select title=\"Accordions Count\" name=\"bootstrapAccordion\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\">3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t\t<option value=\"5\" selected>5</option>\n\t\t\t<option value=\"6\">6</option>\n\t\t</select>\n\t\t<hr>\n\t\t<input type=\"color\" title=\"Accordion Color\" name=\"accordionColor\" value=\"#f1f1f1\">\n\t\t<input type=\"color\" title=\"Panel Color\" name=\"panelColor\" value=\"#ffffff\">\n\t\t<input type=\"color\" title=\"Active Panel Color\" name=\"activePanelColor\" value=\"#4f87fb\">\n\n\t\t<input type=\"color\" name=\"iconColor\" title=\"Icons\" value=\"#222222\" selected>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\t<div class=\"container\">\n\t\t<div class=\"col-12 col-md-12 title-text\">\n\t\t\t<h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".title-text .mbr-section-subtitle\">BEST STYLE</h3>\n\n\t\t\t<h2 class=\"mbr-fonts-style mbr-section-title align-center mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".title-text .mbr-section-title\">\n\t\t\t\tFrequently Asked <span>Questions</span>\n\t\t\t</h2>\n\t\t\t<p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".title-text .mbr-text\" data-multiline mbr-if=\"showText\">\n\t\t\t\tEtiam non purus eros. Nam convallis lectus at felis faucibus, commodo vestibulum magna laoreet.\n\t\t\t\tAenean nec\n\t\t\t\tsem semper sem ultricies interdum.</p>\n\t\t</div>\n\t\t<div class=\"row justify-content-center\" mbr-class=\"{'pt-4':showTitle || showSubtitle}\">\n\t\t\t<div class=\"col-md-12 content-block\">\n\t\t\t\t<div class=\"accordion-content\">\n\t\t\t\t\t<div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion \" role=\"tablist\" aria-multiselectable=\"true\">\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n\t\t\t\t\t\t\t\t<a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style header-text\" mbr-theme-style=\"display-7\" data-app-selector=\".header-text\">\n\t\t\t\t\t\t\t\t\t\t1. How important are fruit and veg? <span class=\"toggle-icon inactive sign mbr-iconfont\"></span>\n\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n\t\t\t\t\t\t\t\t<div class=\"panel-body p-4\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style panel-text mbr-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n\t\t\t\t\t\t\t\t\t\tLorem Ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptas\n\t\t\t\t\t\t\t\t\t\texplicabo molestiae tempore natus velit sed aliquam ut! Culpa asperiores, error\n\t\t\t\t\t\t\t\t\t\tullam qui! Commodi nobis distinctio aperiam totam perferendis quas.</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n\t\t\t\t\t\t\t<div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n\t\t\t\t\t\t\t\t<a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style header-text\" mbr-theme-style=\"display-7\" data-app-selector=\".header-text\">\n\t\t\t\t\t\t\t\t\t\t2. What is omega-3 and why should you eat it? <span class=\"toggle-icon inactive sign mbr-iconfont\"></span>\n\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t</a>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\" data-parent=\"#accordion\">\n\t\t\t\t\t\t\t\t<div class=\"panel-body p-4\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style panel-text mbr-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n\t\t\t\t\t\t\t\t\t\tLorem Ipsum dolor sit amet, consectetur adipisicing elit. Id ullam sint\n\t\t\t\t\t\t\t\t\t\trepellat! Aliquid, odio magni ab rem eos odit, deleniti laboriosam voluptas\n\t\t\t\t\t\t\t\t\t\tinventore, iste suscipit sed ipsa! Ut aliquam, alias.</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n\t\t\t\t\t\t\t<div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n\t\t\t\t\t\t\t\t<a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style header-text\" mbr-theme-style=\"display-7\" data-app-selector=\".header-text\">\n\t\t\t\t\t\t\t\t\t\t3. How can a healthy diet affect cholesterol? <span class=\"toggle-icon inactive sign mbr-iconfont\"></span>\n\t\t\t\t\t\t\t\t\t</h4>\n\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\" data-parent=\"#accordion\">\n\t\t\t\t\t\t\t\t<div class=\"panel-body p-4\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style panel-text mbr-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n\t\t\t\t\t\t\t\t\t\tLorem Ipsum dolor sit amet, consectetur adipisicing elit. Illum sed\n\t\t\t\t\t\t\t\t\t\texercitationem reiciendis suscipit sunt enim, tempore ex debitis fuga dolorum\n\t\t\t\t\t\t\t\t\t\taliquid ea libero atque optio. Molestiae ullam at, quasi alias.</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n\t\t\t\t\t\t\t<div class=\"card-header\" role=\"tab\" id=\"headingFour\">\n\t\t\t\t\t\t\t\t<a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style header-text\" mbr-theme-style=\"display-7\" data-app-selector=\".header-text\">\n\t\t\t\t\t\t\t\t\t\t4. Are foods that contain sugar unhealthy? <span class=\"toggle-icon inactive sign mbr-iconfont\"></span>\n\t\t\t\t\t\t\t\t\t</h4>\n\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFour\" data-parent=\"#accordion\">\n\t\t\t\t\t\t\t\t<div class=\"panel-body p-4\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style panel-text mbr-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n\t\t\t\t\t\t\t\t\t\tLorem Ipsum dolor sit amet, consectetur adipisicing elit. Voluptate veniam\n\t\t\t\t\t\t\t\t\t\taccusamus eaque recusandae modi velit a praesentium ipsa animi facilis\n\t\t\t\t\t\t\t\t\t\trepellendus magnam aliquam, numquam debitis fuga laboriosam, quos aut adipisci.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n\t\t\t\t\t\t\t<div class=\"card-header\" role=\"tab\" id=\"headingFive\">\n\t\t\t\t\t\t\t\t<a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style header-text\" mbr-theme-style=\"display-7\" data-app-selector=\".header-text\">\n\t\t\t\t\t\t\t\t\t\t5. What is the relationship between eating healthily and calories? <span class=\"toggle-icon inactive sign mbr-iconfont\"></span>\n\t\t\t\t\t\t\t\t\t</h4>\n\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" data-parent=\"#accordion\" role=\"tabpanel\" aria-labelledby=\"headingFive\">\n\t\t\t\t\t\t\t\t<div class=\"panel-body p-4\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style panel-text mbr-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n\t\t\t\t\t\t\t\t\t\tLorem Ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem,\n\t\t\t\t\t\t\t\t\t\tnon. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda\n\t\t\t\t\t\t\t\t\t\texpedita tempora error non deserunt beatae ex, eaque voluptatem quas.</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n\t\t\t\t\t\t\t<div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n\t\t\t\t\t\t\t\t<a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"mbr-fonts-style header-text\" mbr-theme-style=\"display-7\" data-app-selector=\".header-text\">\n\t\t\t\t\t\t\t\t\t\t6. How can you achieve a healthy diet? <span class=\"toggle-icon inactive sign mbr-iconfont\"></span>\n\t\t\t\t\t\t\t\t\t</h4>\n\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" data-parent=\"#accordion\" role=\"tabpanel\" aria-labelledby=\"headingSix\">\n\t\t\t\t\t\t\t\t<div class=\"panel-body p-4\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style panel-text mbr-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n\t\t\t\t\t\t\t\t\t\tLorem Ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates\n\t\t\t\t\t\t\t\t\t\tdolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim\n\t\t\t\t\t\t\t\t\t\taliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum\n\t\t\t\t\t\t\t\t\t\tat!</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_cid": "staO0tmvKo",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "accordion2-dn"
+          "_anchor": "custom-html-ee",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,
@@ -24689,7 +24523,7 @@
             }
           },
           "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <select title=\"Buttons Position\" name=\"justify\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle Frame\" name=\"showFrame\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked condition=\"showTitle\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#4f87fb\" condition=\"showLine && showTitle\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineWidth\" min=\"0\" max=\"100\" step=\"1\" value=\"22\" condition=\"showLine && showTitle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/img/05.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-12\">\n                <p class=\"mbr-section-subtitle mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-title .accent-word\">\n                    HAVE AN ACTION TO SUGGEST?</p>\n                <h1 class=\"mbr-section-title align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .separator, .sep-holder\">\n                    We have the <span mbr-text class=\"accent-word\" data-app-selector=\".mbr-section-title .accent-word\">best</span> <br> customer care service.\n                </h1>\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showLine && showTitle\">\n                    <span class=\"sep-holder\" mbr-if=\"showLine && showTitle\">\n                        <span class=\"sep-line d-block\"></span>\n                    </span>\n                </div>\n                <p class=\"mbr-text align-left pt-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Share suggested actions for review by our actions team.</p>\n                <div class=\"mbr-section-btn align-left \" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'justify-content-start': justify == 1, 'justify-content-center': justify == 2, 'justify-content-end': justify == 3}\"><a class=\"btn btn-lg btn-primary\" href=\"https://airtable.com/embed/shrGFhBi6jqjdMuvs\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                        SUBMIT HERE</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <select title=\"Buttons Position\" name=\"justify\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle Frame\" name=\"showFrame\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked condition=\"showTitle\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#4f87fb\" condition=\"showLine && showTitle\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineWidth\" min=\"0\" max=\"100\" step=\"1\" value=\"22\" condition=\"showLine && showTitle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/img/05.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-12\">\n                <p class=\"mbr-section-subtitle mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-title .accent-word\">\n                    HAVE AN FAQ TO SUGGEST?</p>\n                <h1 class=\"mbr-section-title align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .separator, .sep-holder\">\n                    We have the <span mbr-text class=\"accent-word\" data-app-selector=\".mbr-section-title .accent-word\">best</span> <br> customer care service.\n                </h1>\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showLine && showTitle\">\n                    <span class=\"sep-holder\" mbr-if=\"showLine && showTitle\">\n                        <span class=\"sep-line d-block\"></span>\n                    </span>\n                </div>\n                <p class=\"mbr-text align-left pt-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Share suggested FAQ's for review by our actions team.</p>\n                <div class=\"mbr-section-btn align-left \" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'justify-content-start': justify == 1, 'justify-content-center': justify == 2, 'justify-content-end': justify == 3}\"><a class=\"btn btn-lg btn-primary\" href=\"https://airtable.com/shrZm4DO47XZuFE48\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                        SUBMIT HERE</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "staNJmYgT4",
