@@ -50,7 +50,7 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://endpandemics.earth",
-    "uniqCompNum": 525,
+    "uniqCompNum": 527,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\n\n\n",
@@ -1837,6 +1837,186 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-subtitle": {
+              "color": "#4f87fb",
+              "font-weight": "800"
+            },
+            ".mbr-subtitle.display-4": {
+              "font-size": "13px",
+              "line-height": "1.85",
+              "letter-spacing": "2px"
+            },
+            ".mbr-section-title": {
+              "color": "#130947",
+              "font-weight": "700",
+              "text-align": "center"
+            },
+            ".mbr-section-title.display-2": {
+              "line-height": "1.2",
+              "letter-spacing": "-0.5px"
+            },
+            ".mbr-section-text": {
+              "line-height": "1.5",
+              "margin-top": "10px",
+              "color": "#6d7a8c"
+            },
+            ".timelines-container": {
+              "margin-top": "60px",
+              ".timeline-element": {
+                "margin-bottom": "50px",
+                "position": "relative",
+                "word-wrap": "break-word",
+                "word-break": "break-word",
+                "display": "-webkit-flex",
+                "-webkit-box-orient": "horizontal",
+                "-webkit-box-direction": "normal",
+                "flex-direction": "row",
+                ".timeline-date-panel": {
+                  ".time-line-date-content": {
+                    ".mbr-figure": {
+                      "img": {
+                        "border-radius": "4px",
+                        "box-shadow": "0 30px 50px rgba(0, 0, 0, 0.04)"
+                      }
+                    }
+                  }
+                },
+                ".date": {
+                  ".mbr-timeline-date": {
+                    "color": "#130947",
+                    "font-weight": "700"
+                  },
+                  ".display-7": {
+                    "font-size": "20px",
+                    "line-height": "1"
+                  }
+                },
+                ".iconBackground": {
+                  "position": "absolute",
+                  "left": "41%",
+                  "width": "12px",
+                  "height": "12px",
+                  "line-height": "1",
+                  "text-align": "center",
+                  "border-radius": "50%",
+                  "background-color": "@timelineDotColor",
+                  "font-size": "30px",
+                  "display": "inline-block",
+                  "top": "0px",
+                  "margin-left": "-5px"
+                },
+                ".timeline-text-content": {
+                  "margin-left": "2rem",
+                  "text-align": "left",
+                  ".mbr-timeline-title": {
+                    "font-weight": "700",
+                    "margin-bottom": "15px",
+                    "color": "#130947"
+                  },
+                  ".mbr-timeline-text": {
+                    "margin": "0 0 25px",
+                    "line-height": "1.5",
+                    "color": "#6d7a8c",
+                    "font-weight": "400"
+                  },
+                  ".display-5": {
+                    "line-height": "1.09",
+                    "font-size": "22px",
+                    "letter-spacing": "-0.5px"
+                  },
+                  ".display-7": {
+                    "font-size": "16px",
+                    "line-height": "1.5"
+                  }
+                }
+              }
+            },
+            ".container-fluid": {
+              "padding": "0 2rem"
+            },
+            ".separline:before, .first-separline:before": {
+              "top": "0rem",
+              "bottom": "0",
+              "position": "absolute",
+              "content": "''",
+              "width": "4px",
+              "background-color": "@timelineColor",
+              "left": "calc(41% ~'-' 1px)",
+              "height": "calc(100% ~'+' 3rem)"
+            },
+            ".separline:after": {
+              "top": "calc(100% ~'+' 3.1rem)",
+              "bottom": "0",
+              "position": "absolute",
+              "content": "''",
+              "width": "4px",
+              "background-color": "@timelineColor",
+              "left": "calc(41% ~'-' 1px)",
+              "height": "100%"
+            },
+            "@media (max-width: 768px)": {
+              ".container-fluid": {
+                "padding": "0 1rem"
+              },
+              ".iconBackground": {
+                "left": "-9px !important",
+                "top": "33px"
+              },
+              ".separline:before, .first-separline:before": {
+                "left": "-10px !important"
+              },
+              ".separline:after": {
+                "left": "-10px !important",
+                "top": "calc(100% + 2.4rem)"
+              },
+              ".timeline-text-content": {
+                "margin-left": "0 !important"
+              },
+              ".time-line-date-content": {
+                "margin-right": "0 !important",
+                "p": {
+                  "float": "left !important"
+                }
+              },
+              ".mbr-timeline-date": {
+                "padding-bottom": "0 !important"
+              },
+              ".timelines-container .timeline-element .date .mbr-timeline-date": {
+                "text-align": "left",
+                "margin-top": "30px",
+                "margin-bottom": "30px"
+              }
+            },
+            ".reverseTimeline": {
+              "display": "flex",
+              "-webkit-box-orient": "vertical",
+              "-webkit-box-direction": "reverse",
+              "flex-direction": "column-reverse"
+            }
+          },
+          "_name": "timeline1",
+          "_sourceTheme": "medicalm4",
+          "_customHTML": "<section class=\"timeline1 medicalm4_timeline1\" group=\"Timelines\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel)-->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <select title=\"Timelines count\" name=\"timelinesAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n            <option value=\"11\" selected>11</option>\n            <option value=\"12\">12</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reverse Timeline\" name=\"reverseTimeline\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Dates\" name=\"showDates\" checked>\n        <input type=\"checkbox\" title=\"Images\" name=\"showImages\" checked>\n        <input type=\"checkbox\" title=\"Timeline Titles\" name=\"showTimelineTitles\">\n        <input type=\"checkbox\" title=\"Timeline Text\" name=\"showTimelineText\" checked>\n        <input type=\"checkbox\" title=\"Images\" name=\"showImages\">\n        <header>Colors</header>\n        <input type=\"color\" title=\"Timelines\" name=\"timelineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Timeline Dot Color\" name=\"timelineDotColor\" value=\"#4f87fb\">\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#e6ecf2\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <h3 class=\"mbr-subtitle mbr-fonts-style mbr-bold\" data-app-selector=\".mbr-subtitle\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">WHO WE ARE</h3>\n        <h1 class=\"mbr-section-title mbr-fonts-style mbr-bold\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">OUR TIMELINE</h1>\n        <h2 class=\"mbr-section-text mbr-fonts-style mbr-light\" data-app-selector=\".mbr-section-text\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a nisi\n            faucibus,\n            blandit nisl quis, ornare mauris. Quisque facilisis gravida velit, quis tempus eros. Aenean quis nisi\n            consequat, elementum erat id, ultricies risus.</h2>\n\n        <div class=\"timelines-container\" mbri-timelines mbr-class=\"{'pt-4':!showSubtitle, 'reverseTimeline' : reverseTimeline}\">\n            <!--1-->\n            <div class=\"row timeline-element first-separline\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 1}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\" title>\n                        </div>\n\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">DEC 2019</p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">Covid-19 Pandemic Starts&nbsp;</h4>\n\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• First case of COVID-19 officially reported</p>\n                    </div>\n                </div>\n            </div>\n            <!--2-->\n            <div class=\"row timeline-element \" mbr-if=\"timelinesAmount > 1\" mbr-class=\"{'separline':timelinesAmount>2 &amp;&amp; !reverseTimeline || !reverseTimeline &amp;&amp; timelinesAmount > 2 || reverseTimeline &amp;&amp; timelinesAmount > 1}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">JAN-FEB 2020</p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            Pandemic Accelerates</h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• Founders of emerging campaign appeal to world leaders to close wildlife markets<br>• Ten organizations meet to form an official campaign to tackle the root causes of zoonotic outbreaks<br>• Campaign co-founder Freeland launches report on links between wildlife trafficking and zoonoses<br></p>\n                    </div>\n                </div>\n            </div>\n            <!--3-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount > 2\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 3 || reverseTimeline &amp;&amp; timelinesAmount > 2}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/03.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">MAR 2020</p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            Opening of the US Institute of Primary Care\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• WHO announces COVID-19 a pandemic<br>• Campaign initiates regular weekly calls<br></p>\n                    </div>\n                </div>\n            </div>\n            <!--4-->\n            <div class=\"row timeline-element \" mbr-if=\"timelinesAmount > 3\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 4 || reverseTimeline &amp;&amp; timelinesAmount > 3}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/04.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">\n                        APR-MAY 2020</p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            150 years of the Department of Surgey\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• EndPandemics is launched globally as an open, solution-driven campaign alliance of 20+ organizations from multiple sectors operating on five continents<br>• EndPandemics website and collaboration tools go live<br>• Major media covers EndPandemics (Al Jazeera, ITN, TRT, Sky TV, Time, NPR)<br>• B.Grimm is the first major corporation to join EndPandemics<br></p>\n                    </div>\n                </div>\n            </div>\n            <!--5-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount > 4\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 5 || reverseTimeline &amp;&amp; timelinesAmount > 4}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/05.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">\n                        JUN-JUL 2020</p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            Сopywriting\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• EndPandemics presents its Solutions Map concept at the global webinar “One Health: Building Lasting Solutions Together”<br>• EndPandemics and B.Grimm launch a campaign spot on CNN International with message “It’s time to end the wildlife trade and promote compassionate, sustainable farming, for all life on earth”<br>• EndPandemics briefs MPs of the ASEAN Inter-Parliamentary Assembly<br></p>\n                    </div>\n                </div>\n            </div>\n            <!--6-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount > 5\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 6 || reverseTimeline &amp;&amp; timelinesAmount > 5}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/06.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">\n                        AUG-SEP 2020</p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            Economics\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• EndPandemics interacts with the Asian Development Bank on its draft Green Recovery Policy Paper<br>• Channel News Asia features EndPandemics in its “Disease Hunters” TV series<br>• EndPandemics releases its rebranded logo, launches thematic teams on Solutions, Dashboard (Impact Tracking), Comms, Fundraising<br>• EndPandemics organizes a special event “Rooting for Your Wild Mascot to End Pandemics” at the global Freeland Film Festival<br></p>\n                    </div>\n                </div>\n            </div>\n            <!--7-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount > 6\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 7 || reverseTimeline &amp;&amp; timelinesAmount > 6}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/07.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">\n                        OCT-DEC 2020\n                    </p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            Physics\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• EndPandemics launches its 2nd campaign spot on CNN and CNBC<br>• EndPandemics members contribute to a joint call of WC20 (twenty leading conservation organizations) to the G20 summit “to invest in nature or face biodiversity collapse and further pandemics” and “to deliver solutions on the ground”<br>• EndPandemics coordinates an open letter of global experts “Urgent need for revision of China’s Wildlife Protection Law to adopt One Health principles and precautionary approach to the commercial trade in wild animals for food and non-food purposes”<br>• B.Grimm chairman takes EndPandemics message to Forbes MegaTrends Forum in Bangkok, appealing for private sector support for One Health policy and to the notion of investing in Planetary Health as best ways to preserve Earth and business<br>• EndPandemics grows to 65 participating organizations<br></p>\n                    </div>\n                </div>\n            </div>\n            <!--8-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount > 7\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 8 || reverseTimeline &amp;&amp; timelinesAmount > 7}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/08.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">\n                        JAN-MAR 2021</p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            Design\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• EndPandemics is featured on HBO’s John Oliver Show, in The Independent, Mongabay<br>• EndPandemics member Task.io floats the alliance’s digital token EPX to incentivize collaboration and impact<br></p>\n                    </div>\n                </div>\n            </div>\n            <!--9-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount > 8\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 9 || reverseTimeline &amp;&amp; timelinesAmount > 8}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/09.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">\n                        APR-MAY 2021</p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            Design\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• EndPandemics runs its 50th weekly call, grows to 75 participating organizations<br>• EndPandemics organizes a high-level event “Can Thailand Lead a Global Effort to Prevent Future Pandemics?”<br></p>\n                    </div>\n                </div>\n            </div>\n            <!--10-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount > 9\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 10 || reverseTimeline &amp;&amp; timelinesAmount > 9}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">\n                        JUN 2021</p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            Economics\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• EndPandemics co-founder appeals to G7 leaders: “An Earth Insurance Package is our Long Lasting Vaccine”<br>• EndPandemics publicly launches “A Roadmap to End Pandemics: Building It Together”<br></p>\n                    </div>\n                </div>\n            </div>\n            <!--11-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount > 10\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 11 || reverseTimeline &amp;&amp; timelinesAmount > 10}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">\n                        JUL 2021</p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            Mathematics\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">• EndPandemics organizes a joint event with the ASEAN Interparliamentary Assembly “Preventing Pandemics through One Health Approach”<br></p>\n                    </div>\n                </div>\n            </div>\n            <!--12-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount > 11\" mbr-class=\"{'separline': reverseTimeline &amp;&amp; timelinesAmount > 11}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-3 align-left\">\n                    <div class=\"time-line-date-content\">\n                        <div class=\"mbr-figure\" mbr-if=\"showImages\">\n                            <img src=\"../_images/img/03.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"date col-xs-12 col-md-2\">\n                    <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".timelines-container .timeline-element .date .mbr-timeline-date\">\n                        2031\n                    </p>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-7\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-title\" mbr-if=\"showTimelineTitles\">\n                            Сopywriting\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".timelines-container .timeline-element .timeline-text-content .mbr-timeline-text\" mbr-if=\"showTimelineText\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero\n                            tempor, luctus volutpat ligula.\n                            Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper\n                            feugiat\n                            elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sA39t49bGn",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "timeline",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,
@@ -11586,6 +11766,134 @@
           "_isUserblock": true,
           "_sourceTheme": "medicalm4",
           "_cid": "sfcDfh025p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "@primaryColor",
+              "font-weight": "700",
+              "line-height": "20px",
+              "letter-spacing": "2px",
+              "& when (@showFrame)": {
+                "background-color": "@primaryColor",
+                "padding": "5px 14px",
+                "color": "@successColor",
+                "display": "table"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "@secondaryColor",
+              "font-weight": "900",
+              ".accent-word": {
+                "color": "@primaryColor"
+              }
+            },
+            ".mbr-text": {
+              "color": "@infoColor"
+            },
+            ".content-link": {
+              "display": "flex",
+              "-webkit-box-pack": "justify",
+              "justify-content": "space-between",
+              "-webkit-box-align": "center",
+              "align-items": "center",
+              "color": "@secondaryColor",
+              "span": {
+                "margin-right": "15px",
+                "margin-left": "20px",
+                "padding": "10px",
+                "border-radius": "100%",
+                "color": "@primaryColor",
+                "background-color": "#ffffff",
+                "font-size": "2.475rem"
+              }
+            },
+            ".separator": {
+              "margin-top": "-15px",
+              "margin-left": "0",
+              "margin-right": "auto",
+              "width": "100%",
+              ".sep-holder": {
+                "height": "1px",
+                "position": "relative",
+                "-webkit-box-flex": "1",
+                "flex": "1 1 auto",
+                "width": "(@lineWidth * 1%)",
+                ".sep-line": {
+                  "border-color": "@lineColor !important",
+                  "border-top-width": "5px",
+                  "height": "1px",
+                  "border-top": "5px solid @lineColor",
+                  "position": "relative",
+                  "top": "1px",
+                  "width": "(@lineWidth * 1%)"
+                }
+              }
+            },
+            ".mbr-section-btn": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "margin-top": "47px",
+              ".btn": {
+                "border-radius": "4px",
+                "margin": "0.4rem 0.6rem 0.4rem 0 !important",
+                "padding": "15px 40px"
+              },
+              ".btn.display-4": {
+                "line-height": "26px",
+                "letter-spacing": "1px",
+                "font-weight": "700",
+                "font-size": "13px"
+              },
+              ".btn-primary": {
+                "&:hover": {
+                  "background-color": "@secondaryColor !important",
+                  "border-color": "@secondaryColor !important",
+                  "color": "@successColor !important"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".separator, .sep-holder, .sep-line": {
+                "display": "none !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".mbr-section-subtitle": {
+                "& when (@showFrame)": {
+                  "margin-left": "auto",
+                  "margin-right": "auto"
+                }
+              },
+              ".mbr-section-btn": {
+                "-webkit-box-pack": "center",
+                "justify-content": "center"
+              }
+            }
+          },
+          "_name": "header1",
+          "_sourceTheme": "medicalm4",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <select title=\"Buttons Position\" name=\"justify\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle Frame\" name=\"showFrame\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked condition=\"showTitle\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#4f87fb\" condition=\"showLine && showTitle\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineWidth\" min=\"0\" max=\"100\" step=\"1\" value=\"22\" condition=\"showLine && showTitle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/0fdef539.png\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-12\">\n                <p class=\"mbr-section-subtitle mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-title .accent-word\">\n                    HAVE A SOLUTION TO SUGGEST?</p>\n                <h1 class=\"mbr-section-title align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .separator, .sep-holder\">\n                    We have the <span mbr-text class=\"accent-word\" data-app-selector=\".mbr-section-title .accent-word\">best</span> <br> customer care service.\n                </h1>\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showLine && showTitle\">\n                    <span class=\"sep-holder\" mbr-if=\"showLine && showTitle\">\n                        <span class=\"sep-line d-block\"></span>\n                    </span>\n                </div>\n                <p class=\"mbr-text align-left pt-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">All are invited to contribute. Solutions are sourced, vetted, and strengthened by our global alliance of frontline organizations working to protect earth and prevent pandemics.<br></p>\n                <div class=\"mbr-section-btn align-left \" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'justify-content-start': justify == 1, 'justify-content-center': justify == 2, 'justify-content-end': justify == 3}\"><a class=\"btn btn-lg btn-primary\" href=\"https://support.endpandemics.earth/en/collections/2995762-solutions-map\" data-app-placeholder=\"Type Text\" target=\"_blank\">ADD YOUR SOLUTION</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "header1-em",
+          "_isUserblock": true,
+          "_cid": "sAkK5iip0t",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
