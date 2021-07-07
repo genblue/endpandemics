@@ -1622,33 +1622,6 @@ section.lazy-placeholder:after {
     flex-direction: column;
   }
 }
-#content-epvideo {
-  /* Type valid CSS here */
-}
-#content-epvideo div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#content-epvideo p {
-  font-size: 60px;
-  color: #777;
-}
-#content-epvideo .resp-container {
-  position: relative;
-  overflow: hidden;
-  padding-top: 42%;
-  /** margin-left: 120px;
-    margin-right: 120px; **/
-}
-#content-epvideo .resp-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
 .cid-sf8DveN2th {
   padding-top: 105px;
   padding-bottom: 120px;
@@ -6744,9 +6717,6 @@ section.lazy-placeholder:after {
     flex-direction: column;
   }
 }
-#custom-html-5j {
-  /* Type valid CSS here */
-}
 .cid-s1xdxO3bgC {
   padding-top: 105px;
   padding-bottom: 90px;
@@ -7533,9 +7503,6 @@ section.lazy-placeholder:after {
 .cid-s1tTb0f7hR .mbr-section-title,
 .cid-s1tTb0f7hR .mbr-section-btn DIV {
   text-align: left;
-}
-#custom-html-5p {
-  /* Type valid CSS here */
 }
 .cid-s1x9GjmXGU {
   padding-top: 0px;
@@ -8817,18 +8784,6 @@ section.lazy-placeholder:after {
     flex-direction: column;
   }
 }
-#custom-html-76 {
-  /* Type valid CSS here */
-}
-#custom-html-76 div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-76 p {
-  font-size: 60px;
-  color: #777;
-}
 .cid-seOk2fkcGV {
   padding-top: 120px;
   padding-bottom: 105px;
@@ -9650,18 +9605,6 @@ section.lazy-placeholder:after {
     flex-direction: column;
   }
 }
-#custom-html-8g {
-  /* Type valid CSS here */
-}
-#custom-html-8g div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-8g p {
-  font-size: 60px;
-  color: #777;
-}
 .cid-sfcDxhleez {
   padding-top: 60px;
   padding-bottom: 30px;
@@ -9846,8 +9789,8 @@ section.lazy-placeholder:after {
   }
 }
 .cid-sAkK5iip0t {
-  padding-top: 120px;
-  padding-bottom: 105px;
+  padding-top: 150px;
+  padding-bottom: 90px;
   background-color: #ffffff;
 }
 .cid-sAkK5iip0t .mbr-section-subtitle {
@@ -16460,9 +16403,6 @@ section.lazy-placeholder:after {
     flex-direction: column;
   }
 }
-#custom-html-bs {
-  /* Type valid CSS here */
-}
 .cid-sfcMDIxA0j {
   padding-top: 45px;
   padding-bottom: 0px;
@@ -17007,9 +16947,6 @@ section.lazy-placeholder:after {
     flex-direction: column;
   }
 }
-#custom-html-cf {
-  /* Type valid CSS here */
-}
 .cid-sfzVfRqph5 {
   padding-top: 60px;
   padding-bottom: 30px;
@@ -17084,18 +17021,6 @@ section.lazy-placeholder:after {
     -webkit-box-direction: normal;
     flex-direction: column;
   }
-}
-#custom-html-cg {
-  /* Type valid CSS here */
-}
-#custom-html-cg div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-cg p {
-  font-size: 60px;
-  color: #777;
 }
 .cid-sfxZsO3rXc {
   padding-top: 105px;
@@ -18407,18 +18332,6 @@ section.lazy-placeholder:after {
 .cid-stbB6PRuIb .card .panel-body .display-4 {
   font-size: 16px;
 }
-#custom-html-1n {
-  /* Type valid CSS here */
-}
-#custom-html-1n div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-1n p {
-  font-size: 60px;
-  color: #777;
-}
 .cid-rXbqBQqYqA {
   padding-top: 120px;
   padding-bottom: 105px;
@@ -18958,9 +18871,6 @@ section.lazy-placeholder:after {
   font-size: 5rem;
   color: #4f87fb;
 }
-#custom-html-6w {
-  /* Type valid CSS here */
-}
 .cid-sfeQHPqkqS {
   padding-top: 120px;
   padding-bottom: 105px;
@@ -19469,18 +19379,6 @@ section.lazy-placeholder:after {
     -webkit-box-direction: normal;
     flex-direction: column;
   }
-}
-#custom-html-ee {
-  /* Type valid CSS here */
-}
-#custom-html-ee div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-ee p {
-  font-size: 60px;
-  color: #777;
 }
 .cid-staNJmYgT4 {
   padding-top: 120px;
@@ -19991,18 +19889,6 @@ section.lazy-placeholder:after {
     flex-direction: column;
   }
 }
-#custom-html-e3 {
-  /* Type valid CSS here */
-}
-#custom-html-e3 div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-e3 p {
-  font-size: 60px;
-  color: #777;
-}
 .cid-stbM48WuMG {
   padding-top: 120px;
   padding-bottom: 105px;
@@ -20512,18 +20398,6 @@ section.lazy-placeholder:after {
     flex-direction: column;
   }
 }
-#custom-html-dx {
-  /* Type valid CSS here */
-}
-#custom-html-dx div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-dx p {
-  font-size: 60px;
-  color: #777;
-}
 .cid-stbLXT9leq {
   padding-top: 120px;
   padding-bottom: 105px;
@@ -21032,18 +20906,6 @@ section.lazy-placeholder:after {
     -webkit-box-direction: normal;
     flex-direction: column;
   }
-}
-#custom-html-e9 {
-  /* Type valid CSS here */
-}
-#custom-html-e9 div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-e9 p {
-  font-size: 60px;
-  color: #777;
 }
 .cid-stbM9CGvfM {
   padding-top: 120px;
