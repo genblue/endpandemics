@@ -27820,7 +27820,8 @@
       "settings": {
         "title": "Event | Appeal to World Leaders",
         "order": 27,
-        "meta_descr": "End Pandemics: Appeal to World Leaders, Roundtable to recommend urgent and practical steps world leaders can take to prevent new pandemics by addressing their root causes"
+        "meta_descr": "End Pandemics: Appeal to World Leaders, Roundtable to recommend urgent and practical steps world leaders can take to prevent new pandemics by addressing their root causes",
+        "header_custom": ""
       },
       "components": [
         {
@@ -28815,10 +28816,140 @@
             },
             ".wrap-block .contents .mbr-section-title, .menu-content-right": {
               "text-align": "left"
+            },
+            ".resp-sharing-button__link, .resp-sharing-button__icon": {
+              "display": "inline-block"
+            },
+            ".resp-sharing-button__link": {
+              "text-decoration": "none",
+              "color": "#fff",
+              "margin": "0.5em"
+            },
+            ".resp-sharing-button": {
+              "border-radius": "5px",
+              "transition": "25ms ease-out",
+              "padding": "0.5em 0.75em",
+              "font-family": "Helvetica Neue, Helvetica, Arial, sans-serif"
+            },
+            ".resp-sharing-button__icon svg": {
+              "width": "1em",
+              "height": "1em",
+              "margin-right": "0.4em",
+              "vertical-align": "top"
+            },
+            ".resp-sharing-button--small svg": {
+              "margin": "0",
+              "vertical-align": "middle"
+            },
+            ".resp-sharing-button__icon": {
+              "stroke": "#fff",
+              "fill": "none"
+            },
+            ".resp-sharing-button__icon--solid, .resp-sharing-button__icon--solidcircle": {
+              "fill": "#fff",
+              "stroke": "none"
+            },
+            ".resp-sharing-button--twitter": {
+              "background-color": "#55acee",
+              "border-color": "#55acee"
+            },
+            ".resp-sharing-button--twitter:hover": {
+              "background-color": "#2795e9"
+            },
+            ".resp-sharing-button--pinterest": {
+              "background-color": "#bd081c"
+            },
+            ".resp-sharing-button--pinterest:hover": {
+              "background-color": "#8c0615"
+            },
+            ".resp-sharing-button--facebook": {
+              "background-color": "#3b5998",
+              "border-color": "#3b5998"
+            },
+            ".resp-sharing-button--facebook:hover": {
+              "background-color": "#2d4373"
+            },
+            ".resp-sharing-button--tumblr": {
+              "background-color": "#35465c"
+            },
+            ".resp-sharing-button--tumblr:hover": {
+              "background-color": "#222d3c"
+            },
+            ".resp-sharing-button--reddit": {
+              "background-color": "#5f99cf"
+            },
+            ".resp-sharing-button--reddit:hover": {
+              "background-color": "#3a80c1"
+            },
+            ".resp-sharing-button--google": {
+              "background-color": "#dd4b39"
+            },
+            ".resp-sharing-button--google:hover": {
+              "background-color": "#c23321"
+            },
+            ".resp-sharing-button--linkedin": {
+              "background-color": "#0077b5",
+              "border-color": "#0077b5"
+            },
+            ".resp-sharing-button--linkedin:hover": {
+              "background-color": "#046293"
+            },
+            ".resp-sharing-button--email": {
+              "background-color": "#777777",
+              "border-color": "#777777"
+            },
+            ".resp-sharing-button--email:hover": {
+              "background-color": "#5e5e5e"
+            },
+            ".resp-sharing-button--xing": {
+              "background-color": "#1a7576"
+            },
+            ".resp-sharing-button--xing:hover": {
+              "background-color": "#114c4c"
+            },
+            ".resp-sharing-button--whatsapp": {
+              "background-color": "#25d366"
+            },
+            ".resp-sharing-button--whatsapp:hover": {
+              "background-color": "#1da851"
+            },
+            ".resp-sharing-button--hackernews": {
+              "background-color": "#ff6600"
+            },
+            ".resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus": {
+              "background-color": "#fb6200"
+            },
+            ".resp-sharing-button--vk": {
+              "background-color": "#507299"
+            },
+            ".resp-sharing-button--vk:hover": {
+              "background-color": "#43648c"
+            },
+            ".resp-sharing-button--facebook:hover, .resp-sharing-button--facebook:active": {
+              "background-color": "#2d4373",
+              "border-color": "#2d4373"
+            },
+            ".resp-sharing-button--twitter:hover, .resp-sharing-button--twitter:active": {
+              "background-color": "#2795e9",
+              "border-color": "#2795e9"
+            },
+            ".resp-sharing-button--email:hover, .resp-sharing-button--email:active": {
+              "background-color": "#5e5e5e",
+              "border-color": "#5e5e5e"
+            },
+            ".resp-sharing-button--linkedin:hover, .resp-sharing-button--linkedin:active": {
+              "background-color": "#046293",
+              "border-color": "#046293"
+            },
+            ".resp-sharing-button--telegram": {
+              "background-color": "#54A9EB"
+            },
+            ".resp-sharing-button--telegram:hover": {
+              "background-color": "#4B97D1"
             }
           },
           "_name": "header4",
-          "_customHTML": "<section class=\"header04\" group=\"Additional Blocks\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Main Text\" name=\"showMainText\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Signature\" name=\"showSign\">\n        <input type=\"checkbox\" title=\"Icon\" name=\"showIcon\">\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"mediaLeft\" checked>\n\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcon\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#e3e3e3\" condition=\"showIcon\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row align-items-center content-row\">\n            <div class=\"col-lg-6 wrap-block\">\n                <div class=\"contents\">\n                    <h2 class=\"mbr-subtitle mbr-fonts-style mbr-bold\" data-app-selector=\".wrap-block .contents .mbr-subtitle, .menu-content-right\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">WHO WE ARE</h2>\n                    <h1 class=\"mbr-section-title mbr-fonts-style mbr-bold\" data-app-selector=\".wrap-block .contents .mbr-section-title, .menu-content-right\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">PROMOTION DETAILS</h1>\n                    <h3 class=\"mbr-section-text mbr-fonts-style mbr-bold boldSubtitle\" data-app-selector=\".wrap-block .contents h3, .menu-content-right\" mbr-if=\"showMainText\" mbr-theme-style=\"display-7\">• <a href=\"assets/files/END-PANDEMICSINVITE8-17-21C1.pdf\" class=\"text-primary\" target=\"_blank\">Download invitation </a>(PDF)<br><br>• RSVP<div><a href=\"https://lu.ma/event/ep-appeal\" class=\"text-primary\" target=\"_blank\">&nbsp; &nbsp;Click here</a></div><div><br>• Facebook Live<br>&nbsp; &nbsp;<span style=\"font-weight: 400;\"><a href=\"https://tiny.cc/ep-appeal-facebook\" class=\"text-primary\" target=\"_blank\">http://tiny.cc/ep-appeal-facebook</a></span><br><br>• Youtube Live<br>&nbsp; &nbsp;<span style=\"font-weight: 400;\"><a href=\"https://tiny.cc/ep-appeal-youtube\" class=\"text-primary\" target=\"_blank\">http://tiny.cc/ep-appeal-youtube</a></span><br><br>• <b>Share via link&nbsp;</b><br><a href=\"https://endpandemics.earth/appeal.html\" class=\"text-primary\" target=\"_blank\">&nbsp; &nbsp;http://endpandemics.earth/appeal.html</a><a href=\"http://tiny.cc/ep-onehealth\" target=\"_blank\"><br></a><br>• Share via Twitter&nbsp;<span style=\"font-weight: normal;\">(TBD)</span><br><br>• Share via LinkedIn&nbsp;<span style=\"font-weight: normal;\">(TBD)</span><br><br></div></h3>\n                    <h4 class=\"mbr-section-text mbr-fonts-style mbr-light\" data-app-selector=\".wrap-block .contents h4, .menu-content-right\" mbr-if=\"showText\" mbr-theme-style=\"display-7\"><i>We look forward to seeing you!</i></h4>\n                </div>\n                <div class=\"menu-content-right\" mbr-if=\"showSign\">\n                    <div class=\"wrap d-inline-block\">\n                        <div class=\"info-widget\">\n                            <img class=\"signature\" src=\"../_images/img/14.jpg\">\n                            <div class=\"widget-content\" mbr-theme-style=\"display-4\">\n                                <p class=\"widget-title mbr-fonts-style mbr-bold\" data-app-selector=\".info-widget .widget-content .widget-title, .widget-icon\" mbr-theme-style=\"display-7\">Gerald\n                                    Freeman</p>\n                                <p class=\"widget-text mbr-fonts-style\" data-app-selector=\".info-widget .widget-content .widget-text\" mbr-theme-style=\"display-4\">\n                                    Oncologist</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-6 photo-split\">\n                <div class=\"element-inner\" mbr-if=\"showIcon\">\n                    <span mbr-icon class=\"widget-icon mbr-iconfont icon54-v1-medical-symbol\"></span>\n                </div>\n                <div class=\"element-outer\" mbr-if=\"showIcon\">\n                </div>\n                <div class=\"element-outer2\" mbr-if=\"showIcon\">\n                </div>\n                <div class=\"image-wrap\">\n                    <a href=\"assets/files/END-PANDEMICSINVITE8-17-21C1.pdf\"><img src=\"@PROJECT_PATH@/assets/images/screen-shot-2021-08-18-at-19.50.28.jpg\" alt=\"Download Invite\" title></a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header04\" group=\"Additional Blocks\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Main Text\" name=\"showMainText\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Signature\" name=\"showSign\">\n        <input type=\"checkbox\" title=\"Icon\" name=\"showIcon\">\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"mediaLeft\" checked>\n\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcon\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#e3e3e3\" condition=\"showIcon\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row align-items-center content-row\">\n            <div class=\"col-lg-6 wrap-block\">\n                <div class=\"contents\">\n                    <h2 class=\"mbr-subtitle mbr-fonts-style mbr-bold\" data-app-selector=\".wrap-block .contents .mbr-subtitle, .menu-content-right\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">WHO WE ARE</h2>\n                    <h1 class=\"mbr-section-title mbr-fonts-style mbr-bold\" data-app-selector=\".wrap-block .contents .mbr-section-title, .menu-content-right\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">PROMOTION DETAILS</h1>\n                    <h3 class=\"mbr-section-text mbr-fonts-style mbr-bold boldSubtitle\" data-app-selector=\".wrap-block .contents h3, .menu-content-right\" mbr-if=\"showMainText\" mbr-theme-style=\"display-7\">• <a href=\"https://bit.ly/ep-appeal-invite\" class=\"text-primary\" target=\"_blank\">Download invitation </a>(PDF)<br><br>• RSVP<div><a href=\"https://lu.ma/event/ep-appeal\" class=\"text-primary\" target=\"_blank\">&nbsp; &nbsp;Click here</a></div><div><br>• Facebook Live on Sept 2, 2021<br>&nbsp; &nbsp;<span style=\"font-weight: 400;\"><a href=\"https://tiny.cc/ep-appeal-facebook\" class=\"text-primary\" target=\"_blank\">http://tiny.cc/ep-appeal-facebook</a></span><br><br>• Youtube Live on Sept 2, 2021<br>&nbsp; &nbsp;<span style=\"font-weight: 400;\"><a href=\"https://tiny.cc/ep-appeal-youtube\" class=\"text-primary\" target=\"_blank\">http://tiny.cc/ep-appeal-youtube</a></span><br><br>• <b>Share via Social Channels</b><a href=\"http://tiny.cc/ep-onehealth\" target=\"_blank\"><br></a>\n                        \n   \n                \n<!-- Sharingbutton LinkedIn -->\n<a class=\"resp-sharing-button__link\" href=\"https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fendpandemics.earth%2Fappeal.html&amp;title=Tune%20in%20Sept%202nd%20%E2%80%94%20End%20Pandemics%3A%20Appeal%20to%20World%20Leaders&amp;summary=Tune%20in%20Sept%202nd%20%E2%80%94%20End%20Pandemics%3A%20Appeal%20to%20World%20Leaders&amp;source=https%3A%2F%2Fendpandemics.earth%2Fappeal.html\" target=\"_blank\" rel=\"noopener\" aria-label=\"\">\n  <div class=\"resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z\"/></svg>\n    </div>\n  </div>\n</a>\n                        \n                        <!-- Sharingbutton Facebook -->\n<a class=\"resp-sharing-button__link\" href=\"https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fendpandemics.earth%2Fappeal.html\" target=\"_blank\" rel=\"noopener\" aria-label=\"\">\n  <div class=\"resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z\"/></svg>\n    </div>\n  </div>\n</a>\n\n<!-- Sharingbutton Twitter -->\n<a class=\"resp-sharing-button__link\" href=\"https://twitter.com/intent/tweet/?text=Tune%20in%20Sept%202nd%20%E2%80%94%20End%20Pandemics%3A%20Appeal%20to%20World%20Leaders&amp;url=https%3A%2F%2Fendpandemics.earth%2Fappeal.html\" target=\"_blank\" rel=\"noopener\" aria-label=\"\">\n  <div class=\"resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z\"/></svg>\n    </div>\n  </div>\n</a>\n\n\n<!-- Sharingbutton Telegram -->\n<a class=\"resp-sharing-button__link\" href=\"https://telegram.me/share/url?text=Tune%20in%20Sept%202nd%20%E2%80%94%20End%20Pandemics%3A%20Appeal%20to%20World%20Leaders&amp;url=https%3A%2F%2Fendpandemics.earth%2Fappeal.html\" target=\"_blank\" rel=\"noopener\" aria-label=\"\">\n  <div class=\"resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M.707 8.475C.275 8.64 0 9.508 0 9.508s.284.867.718 1.03l5.09 1.897 1.986 6.38a1.102 1.102 0 0 0 1.75.527l2.96-2.41a.405.405 0 0 1 .494-.013l5.34 3.87a1.1 1.1 0 0 0 1.046.135 1.1 1.1 0 0 0 .682-.803l3.91-18.795A1.102 1.102 0 0 0 22.5.075L.706 8.475z\"/></svg>\n    </div>\n  </div>\n</a>\n\n                        <!-- Sharingbutton E-Mail -->\n<a class=\"resp-sharing-button__link\" href=\"mailto:?subject=Tune%20in%20Sept%202nd%20%E2%80%94%20End%20Pandemics%3A%20Appeal%20to%20World%20Leaders&amp;body=https%3A%2F%2Fendpandemics.earth%2Fappeal.html\" target=\"_self\" rel=\"noopener\" aria-label=\"\">\n  <div class=\"resp-sharing-button resp-sharing-button--email resp-sharing-button--small\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z\"/></svg>\n    </div>\n  </div>\n</a>\n                        \n                        \n \n                        \n                        </div></h3>\n                    \n                    \n                    \n                    \n                  \n                    \n                    \n                    \n                    \n                    <h4 class=\"mbr-section-text mbr-fonts-style mbr-light\" data-app-selector=\".wrap-block .contents h4, .menu-content-right\" mbr-if=\"showText\" mbr-theme-style=\"display-7\"><i>We look forward to seeing you!</i></h4>\n                </div>\n                <div class=\"menu-content-right\" mbr-if=\"showSign\">\n                    <div class=\"wrap d-inline-block\">\n                        <div class=\"info-widget\">\n                            <img class=\"signature\" src=\"../_images/img/14.jpg\">\n                            <div class=\"widget-content\" mbr-theme-style=\"display-4\">\n                                <p class=\"widget-title mbr-fonts-style mbr-bold\" data-app-selector=\".info-widget .widget-content .widget-title, .widget-icon\" mbr-theme-style=\"display-7\">Gerald\n                                    Freeman</p>\n                                <p class=\"widget-text mbr-fonts-style\" data-app-selector=\".info-widget .widget-content .widget-text\" mbr-theme-style=\"display-4\">\n                                    Oncologist</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-6 photo-split\">\n                <div class=\"element-inner\" mbr-if=\"showIcon\">\n                    <span mbr-icon class=\"widget-icon mbr-iconfont icon54-v1-medical-symbol\"></span>\n                </div>\n                <div class=\"element-outer\" mbr-if=\"showIcon\">\n                </div>\n                <div class=\"element-outer2\" mbr-if=\"showIcon\">\n                </div>\n                <div class=\"image-wrap\">\n                    <a href=\"assets/files/END-PANDEMICSINVITE8-17-21C1.pdf\"><img src=\"@PROJECT_PATH@/assets/images/screen-shot-2021-08-18-at-19.50.28.jpg\" alt=\"Download Invite\" title></a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sGuUg8dulp",
           "_anchor": "header4-et",
           "_PHPplaceholders": [],
